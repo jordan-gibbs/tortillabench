@@ -1,0 +1,229 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: output/iter1 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (65x65 grid)
+[    0.1s] Adding hook-driven fold animation (2 successive folds)
+[    0.1s] Configuring cloth
+[    0.1s]   cloth={"quality": 8, "mass": 0.3, "air_damping": 1.0, "tension_stiffness": 60.0, "compression_stiffness": 60.0, "shear_stiffness": 40.0, "bending_stiffness": 300.0, "tension_damping": 5.0, "compression_damping": 5.0, "shear_damping": 5.0, "bending_damping": 1.0, "pin_stiffness": 1.0}
+[    0.1s]   collision={"distance_min": 0.004, "collision_quality": 3, "self_distance_min": 0.006, "self_friction": 5.0, "self_collision": 1, "self_impulse_clamp": 0.0}
+[    0.1s] Baking cloth (frames 1-170, 24 fps)
+[    1.3s]   simulated frame 10 (1.2 s)
+[    2.5s]   simulated frame 20 (2.5 s)
+[    3.8s]   simulated frame 30 (3.8 s)
+[    5.3s]   simulated frame 40 (5.3 s)
+[    6.6s]   simulated frame 50 (6.5 s)
+[    7.9s]   simulated frame 60 (7.9 s)
+[    9.2s]   simulated frame 70 (9.1 s)
+[   10.3s]   simulated frame 80 (10.2 s)
+[   11.6s]   simulated frame 90 (11.5 s)
+[   13.0s]   simulated frame 100 (12.9 s)
+[   14.3s]   simulated frame 110 (14.2 s)
+[   15.6s]   simulated frame 120 (15.6 s)
+[   17.1s]   simulated frame 130 (17.0 s)
+[   18.5s]   simulated frame 140 (18.5 s)
+[   19.9s]   simulated frame 150 (19.8 s)
+[   21.3s]   simulated frame 160 (21.2 s)
+[   22.7s]   simulated frame 170 (22.6 s)
+[   22.7s] Cloth bake done in 22.6 s
+[   22.7s] Frozen cloth surface at frame 170:
+[   22.7s]   cloth bbox x[-0.0696,0.0450] y[-0.0714,0.0450] z[0.0011,0.0229]
+[   22.7s]   edge length ratio mean 1.011  p1 0.933  p99 1.123  max 2.572
+[   22.7s]   self-intersecting triangle pairs: 54
+[   22.7s] Solidified: min z before contact clamp -0.00025 m, 1 verts clamped to board plane
+[   22.7s]   final tortilla: 8450 verts, height range [0.0000, 0.0238]
+[   22.7s] Building tortilla material
+[   22.8s] Building wood material
+[   22.8s] Building procedural world
+[   23.3s] Building lighting rig
+[   23.3s]   light Key   d=0.64 m  size 0.60x0.45  17.0 W
+[   23.3s]   light Fill  d=0.69 m  size 0.55x0.55  2.6 W
+[   23.3s]   light Rim   d=0.71 m  size 0.55x0.16  15.9 W
+[   23.3s] Building camera (low angle, shallow DOF)
+[   23.3s]   camera at (0.133, 0.382, 0.074), focus at (-0.038, 0.045, 0.009), f/3.5 65mm
+[   23.3s] Compute device: GPU OPTIX: NVIDIA GeForce RTX 5070 Ti
+Info: Saved as "tortilla_scene.blend"
+[   23.3s] Saved .blend after bake: output/iter1\tortilla_scene.blend
+[   23.3s] Rendering 3840x2160, 512 samples (Cycles, GPU OPTIX: NVIDIA GeForce RTX 5070 Ti)
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)
+Fra:170 Mem:56.19M (Peak 56.19M) | Time:00:00.48 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CuttingBoard
+Fra:170 Mem:56.19M (Peak 56.19M) | Time:00:00.48 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Backdrop
+Fra:170 Mem:75.24M (Peak 75.24M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tortilla
+Fra:170 Mem:75.24M (Peak 75.24M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:170 Mem:101.80M (Peak 107.99M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:170 Mem:71.47M (Peak 107.99M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:170 Mem:71.47M (Peak 107.99M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:170 Mem:71.47M (Peak 107.99M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:170 Mem:71.47M (Peak 107.99M) | Time:00:00.54 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:170 Mem:71.58M (Peak 107.99M) | Time:00:00.67 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:7.77M, Peak:7.77M | Scene, ViewLayer | Updating Geometry BVH light 8/7 | Building BVH
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:7.77M, Peak:7.77M | Scene, ViewLayer | Updating Geometry BVH Rim 7/7 | Building BVH
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:7.77M, Peak:7.77M | Scene, ViewLayer | Updating Geometry BVH Mesh 4/7 | Building BVH
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:7.77M, Peak:7.77M | Scene, ViewLayer | Updating Geometry BVH Mesh 4/7 | Building OptiX acceleration structure
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:12.94M, Peak:38.25M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:12.94M, Peak:38.25M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:12.94M, Peak:38.25M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:170 Mem:79.32M (Peak 107.99M) | Time:00:00.68 | Mem:12.94M, Peak:38.25M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:12.94M, Peak:38.25M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.17M, Peak:38.25M | Scene, ViewLayer | Updating Objects Flags
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.17M, Peak:38.25M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.17M, Peak:38.25M | Scene, ViewLayer | Updating Images
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.17M, Peak:38.25M | Scene, ViewLayer | Updating Camera Volume
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.17M, Peak:38.25M | Scene, ViewLayer | Updating Lookup Tables
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.25M, Peak:38.25M | Scene, ViewLayer | Updating Lights
+Fra:170 Mem:86.55M (Peak 107.99M) | Time:00:00.69 | Mem:20.25M, Peak:38.25M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:170 Mem:150.58M (Peak 438.55M) | Time:00:00.79 | Mem:84.28M, Peak:244.25M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:170 Mem:150.58M (Peak 438.55M) | Time:00:00.79 | Mem:84.28M, Peak:244.25M | Scene, ViewLayer | Updating Integrator
+Fra:170 Mem:150.58M (Peak 438.55M) | Time:00:00.79 | Mem:84.28M, Peak:244.25M | Scene, ViewLayer | Updating Film
+Fra:170 Mem:150.59M (Peak 438.55M) | Time:00:00.79 | Mem:84.20M, Peak:244.25M | Scene, ViewLayer | Updating Lookup Tables
+Fra:170 Mem:150.59M (Peak 438.55M) | Time:00:00.79 | Mem:84.29M, Peak:244.25M | Scene, ViewLayer | Updating Baking
+Fra:170 Mem:150.59M (Peak 438.55M) | Time:00:00.79 | Mem:84.29M, Peak:244.25M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:170 Mem:150.59M (Peak 438.55M) | Time:00:00.79 | Mem:84.29M, Peak:244.25M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:170 Mem:157.15M (Peak 438.55M) | Time:00:00.81 | Mem:727.42M, Peak:727.42M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 0/512
+Fra:170 Mem:462.35M (Peak 462.35M) | Time:00:00.91 | Remaining:01:44.06 | Mem:1032.61M, Peak:1032.61M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 1/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:07.06 | Remaining:01:12.84 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 80/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:08.29 | Remaining:01:11.45 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 96/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:09.51 | Remaining:01:09.97 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 112/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:10.69 | Remaining:01:08.29 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 128/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:11.91 | Remaining:01:06.99 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 144/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:13.13 | Remaining:01:05.67 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 160/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:14.43 | Remaining:01:04.77 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 176/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:15.77 | Remaining:01:03.94 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 192/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:17.00 | Remaining:01:02.62 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 208/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:18.22 | Remaining:01:01.31 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 224/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:19.45 | Remaining:01:00.01 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 240/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:20.71 | Remaining:00:58.82 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 256/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:22.06 | Remaining:00:57.84 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 272/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:23.32 | Remaining:00:56.63 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 288/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:24.53 | Remaining:00:55.29 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 304/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:25.73 | Remaining:00:53.93 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 320/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:26.94 | Remaining:00:52.62 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 336/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:28.11 | Remaining:00:51.23 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 352/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:29.27 | Remaining:00:49.85 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 368/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:30.43 | Remaining:00:48.49 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 384/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:31.58 | Remaining:00:47.12 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 400/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:32.74 | Remaining:00:45.79 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 416/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:33.89 | Remaining:00:44.46 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 432/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:35.11 | Remaining:00:43.22 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 448/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:36.33 | Remaining:00:41.99 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 464/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:37.57 | Remaining:00:40.78 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 480/512
+Fra:170 Mem:462.37M (Peak 462.37M) | Time:00:38.89 | Remaining:00:39.66 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 496/512
+Fra:170 Mem:462.37M (Peak 766.37M) | Time:00:40.54 | Remaining:00:38.83 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 0/4 Tiles, Sample 512/512
+Fra:170 Mem:462.37M (Peak 766.37M) | Time:00:40.54 | Remaining:00:38.83 | Mem:1032.63M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 512/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:40.65 | Remaining:00:38.81 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 1/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:46.21 | Remaining:00:33.58 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 80/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:47.32 | Remaining:00:32.50 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 96/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:48.42 | Remaining:00:31.41 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 112/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:49.56 | Remaining:00:30.35 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 128/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:50.74 | Remaining:00:29.30 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 144/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:52.02 | Remaining:00:28.31 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 160/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:53.24 | Remaining:00:27.28 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 176/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:54.38 | Remaining:00:26.19 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 192/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:55.51 | Remaining:00:25.10 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 208/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:56.67 | Remaining:00:24.02 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 224/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:57.88 | Remaining:00:22.96 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 240/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:00:59.13 | Remaining:00:21.91 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 256/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:00.35 | Remaining:00:20.83 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 272/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:01.46 | Remaining:00:19.72 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 288/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:02.60 | Remaining:00:18.62 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 304/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:03.69 | Remaining:00:17.50 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 320/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:04.76 | Remaining:00:16.38 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 336/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:05.77 | Remaining:00:15.25 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 352/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:11.61 | Remaining:00:15.15 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 368/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:12.64 | Remaining:00:13.93 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 384/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:13.64 | Remaining:00:12.71 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 400/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:14.69 | Remaining:00:11.51 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 416/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:15.72 | Remaining:00:10.31 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 432/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:16.77 | Remaining:00:09.11 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 448/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:17.86 | Remaining:00:07.93 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 464/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:18.92 | Remaining:00:06.74 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 480/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:20.07 | Remaining:00:05.57 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 496/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:21.72 | Remaining:00:04.42 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 1/4 Tiles, Sample 512/512
+Fra:170 Mem:424.30M (Peak 766.37M) | Time:01:21.72 | Remaining:00:04.42 | Mem:994.56M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 512/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:21.75 | Remaining:00:04.42 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 1/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:21.96 | Remaining:00:04.04 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 80/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.02 | Remaining:00:03.97 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 96/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.08 | Remaining:00:03.90 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 112/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.13 | Remaining:00:03.82 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 128/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.18 | Remaining:00:03.75 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 144/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.23 | Remaining:00:03.67 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 160/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.28 | Remaining:00:03.60 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 176/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.33 | Remaining:00:03.52 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 192/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.37 | Remaining:00:03.45 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 208/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.42 | Remaining:00:03.37 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 224/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.47 | Remaining:00:03.30 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 240/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.51 | Remaining:00:03.22 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 256/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.55 | Remaining:00:03.15 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 272/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.59 | Remaining:00:03.08 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 288/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.62 | Remaining:00:03.00 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 304/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.66 | Remaining:00:02.93 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 320/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.69 | Remaining:00:02.85 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 336/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.72 | Remaining:00:02.78 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 352/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.75 | Remaining:00:02.70 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 368/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.78 | Remaining:00:02.63 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 384/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.81 | Remaining:00:02.55 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 400/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.83 | Remaining:00:02.48 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 416/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.86 | Remaining:00:02.40 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 432/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.88 | Remaining:00:02.33 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 448/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.90 | Remaining:00:02.25 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 464/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.92 | Remaining:00:02.18 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 480/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:22.94 | Remaining:00:02.11 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 496/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:23.02 | Remaining:00:02.03 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 2/4 Tiles, Sample 512/512
+Fra:170 Mem:174.43M (Peak 766.37M) | Time:01:23.02 | Remaining:00:02.03 | Mem:744.69M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 512/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.03 | Remaining:00:02.03 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 1/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.22 | Remaining:00:01.71 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 80/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.27 | Remaining:00:01.65 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 96/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.31 | Remaining:00:01.58 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 112/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.35 | Remaining:00:01.52 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 128/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.39 | Remaining:00:01.46 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 144/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.43 | Remaining:00:01.39 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 160/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.46 | Remaining:00:01.33 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 176/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.50 | Remaining:00:01.26 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 192/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.52 | Remaining:00:01.20 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 208/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.55 | Remaining:00:01.14 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 224/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.58 | Remaining:00:01.07 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 240/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.60 | Remaining:00:01.01 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 256/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.62 | Remaining:00:00.95 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 272/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.63 | Remaining:00:00.88 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 288/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.65 | Remaining:00:00.82 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 304/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.67 | Remaining:00:00.75 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 320/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.68 | Remaining:00:00.69 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 336/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.69 | Remaining:00:00.63 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 352/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.70 | Remaining:00:00.56 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 368/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.72 | Remaining:00:00.50 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 384/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.73 | Remaining:00:00.44 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 400/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.74 | Remaining:00:00.37 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 416/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.75 | Remaining:00:00.31 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 432/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.76 | Remaining:00:00.25 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 448/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.77 | Remaining:00:00.18 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 464/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.78 | Remaining:00:00.12 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 480/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.79 | Remaining:00:00.06 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 496/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.82 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 512/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.82 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 0/512
+Fra:170 Mem:172.28M (Peak 766.37M) | Time:01:23.83 | Mem:742.54M, Peak:1032.63M | Scene, ViewLayer | Finished
+Fra:170 Mem:61.27M (Peak 766.37M) | Time:01:23.83 | Mem:648.33M, Peak:1032.63M | Scene | Reading full buffer from disk
+Fra:170 Mem:662.44M (Peak 766.37M) | Time:01:24.27 | Mem:648.33M, Peak:1032.63M | Scene | ViewLayer | Denoising
+Fra:170 Mem:662.44M (Peak 852.29M) | Time:01:36.18 | Mem:1249.50M, Peak:1249.50M | Scene | ViewLayer | Finishing
+Saved: 'C:\output\iter1\tortilla_render.png'
+Time: 01:38.18 (Saving: 00:01.63)
+
+[  121.5s] Render finished in 98.2 s -> output/iter1\tortilla_render.png
+Traceback (most recent call last):
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 1022, in <module>
+    main()
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 1016, in main
+    raise RuntimeError("Render output missing")
+RuntimeError: Render output missing
+[  121.5s] FAILED

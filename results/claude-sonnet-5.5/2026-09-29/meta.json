@@ -1,0 +1,10 @@
+{
+  "model": "Claude Sonnet 5.5",
+  "harness": "claude-code",
+  "date": "2026-09-29",
+  "final_image": "iterations/render3_final.png",
+  "preview": "preview.jpg",
+  "files": 55,
+  "notes": "Ran in repo root before workspace isolation; moved afterwards. Self-reports 3 renders plus ~15 bake/tune runs.",
+  "grade": null
+}

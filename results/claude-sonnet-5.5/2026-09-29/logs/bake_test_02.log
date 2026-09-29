@@ -1,0 +1,11 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: scratch/t1 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (89x89 grid)
+[    0.1s] Adding hook-driven fold animation (2 successive folds)
+[    0.1s] Configuring cloth
+[    0.1s]   cloth={"quality": 14, "mass": 0.02, "air_damping": 1.5, "tension_stiffness": 30.0, "compression_stiffness": 30.0, "shear_stiffness": 15.0, "bending_stiffness": 4.0, "tension_damping": 5.0, "compression_damping": 5.0, "shear_damping": 5.0, "bending_damping": 1.0, "pin_stiffness": 1.0}
+[    0.1s]   collision={"distance_min": 0.001, "collision_quality": 6, "self_distance_min": 0.003, "self_friction": 5.0}
+[    0.1s] Baking cloth (frames 1-170, 24 fps)

@@ -1,0 +1,20 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: scratch/t1 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (89x89 grid)
+[    0.1s] Adding hook-driven fold animation (2 successive folds)
+[    0.1s] Configuring cloth
+Traceback (most recent call last):
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 1015, in <module>
+    main()
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 958, in main
+    cm = add_cloth(sim, args.set)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 335, in add_cloth
+    s.use_pin_cloth = True
+    ^^^^^^^^^^^^^^^
+AttributeError: 'ClothSettings' object has no attribute 'use_pin_cloth'
+[    0.1s] FAILED
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)

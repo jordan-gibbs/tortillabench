@@ -1,0 +1,52 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: C:\Users\Jordan\PycharmProjects\tortillabench\scratch\t2 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (65x65 grid)
+[    0.0s] Adding hook-driven fold animation (2 successive folds)
+[    0.0s] Configuring cloth
+[    0.0s]   cloth={"quality": 8, "mass": 0.3, "air_damping": 1.0, "tension_stiffness": 60.0, "compression_stiffness": 60.0, "shear_stiffness": 40.0, "bending_stiffness": 180.0, "tension_damping": 5.0, "compression_damping": 5.0, "shear_damping": 5.0, "bending_damping": 1.0, "pin_stiffness": 1.0}
+[    0.0s]   collision={"distance_min": 0.004, "collision_quality": 3, "self_distance_min": 0.006, "self_friction": 5.0, "self_collision": 1, "self_impulse_clamp": 0.0}
+[    0.0s] Baking cloth (frames 1-170, 24 fps)
+[    1.3s]   simulated frame 10 (1.3 s)
+[    2.7s]   simulated frame 20 (2.7 s)
+[    4.1s]   simulated frame 30 (4.1 s)
+[    5.5s]   simulated frame 40 (5.5 s)
+[    7.0s]   simulated frame 50 (6.9 s)
+[    8.5s]   simulated frame 60 (8.5 s)
+[   10.0s]   simulated frame 70 (9.9 s)
+[   11.5s]   simulated frame 80 (11.5 s)
+[   13.0s]   simulated frame 90 (13.0 s)
+[   14.7s]   simulated frame 100 (14.7 s)
+[   16.3s]   simulated frame 110 (16.2 s)
+[   18.1s]   simulated frame 120 (18.1 s)
+[   19.8s]   simulated frame 130 (19.8 s)
+[   21.7s]   simulated frame 140 (21.6 s)
+[   24.0s]   simulated frame 150 (24.0 s)
+[   26.1s]   simulated frame 160 (26.1 s)
+[   28.1s]   simulated frame 170 (28.0 s)
+[   28.1s] Cloth bake done in 28.0 s
+[   28.4s] Dumped cloth frames to scratch/full2.json
+[   28.4s] Frozen cloth surface at frame 170:
+[   28.5s]   cloth bbox x[-0.0696,0.0450] y[-0.0718,0.0453] z[0.0013,0.0171]
+[   28.5s]   edge length ratio mean 1.007  p1 0.873  p99 1.182  max 2.214
+[   28.5s]   self-intersecting triangle pairs: 53
+[   28.5s] Solidified: min z before contact clamp -0.02371 m, 1 verts clamped to board plane
+[   28.5s]   final tortilla: 8450 verts, height range [0.0000, 0.0350]
+[   28.5s] Building tortilla material
+[   28.5s] Building wood material
+[   28.5s] Building procedural world
+[   29.7s] Building lighting rig
+[   29.7s]   light Key   d=0.64 m  size 0.60x0.45  12.2 W
+[   29.7s]   light Fill  d=0.69 m  size 0.55x0.55  2.6 W
+[   29.7s]   light Rim   d=0.71 m  size 0.55x0.16  12.0 W
+[   29.7s] Building camera (low angle, shallow DOF)
+[   29.7s]   camera at (0.267, 0.502, 0.168), focus at (0.256, 0.071, 0.035), f/4.0 85mm
+[   29.7s] Compute device: GPU OPTIX: NVIDIA GeForce RTX 5070 Ti
+Info: Saved as "tortilla_scene.blend"
+[   29.8s] Saved .blend after bake: C:\Users\Jordan\PycharmProjects\tortillabench\scratch\t2\tortilla_scene.blend
+[   29.8s] --bake-only: skipping render. Total runtime 29.8 s
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)
+
+Blender quit

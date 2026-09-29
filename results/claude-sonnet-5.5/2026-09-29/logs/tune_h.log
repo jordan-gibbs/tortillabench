@@ -1,0 +1,32 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: scratch/t1 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (65x65 grid)
+[    0.1s] Adding hook-driven fold animation (2 successive folds)
+[    0.1s] Configuring cloth
+[    0.1s]   cloth={"quality": 8, "mass": 0.3, "air_damping": 1.0, "tension_stiffness": 60.0, "compression_stiffness": 60.0, "shear_stiffness": 40.0, "bending_stiffness": 150.0, "tension_damping": 5.0, "compression_damping": 5.0, "shear_damping": 5.0, "bending_damping": 5.0, "pin_stiffness": 1.0}
+[    0.1s]   collision={"distance_min": 0.004, "collision_quality": 3, "self_distance_min": 0.006, "self_friction": 5.0, "self_collision": 1, "self_impulse_clamp": 0.0}
+[    0.1s] Baking cloth (frames 1-46, 24 fps)
+[    1.5s]   simulated frame 10 (1.5 s)
+[    3.2s]   simulated frame 20 (3.2 s)
+[    4.9s]   simulated frame 30 (4.8 s)
+[    6.6s]   simulated frame 40 (6.5 s)
+[    7.7s] Cloth bake done in 7.6 s
+[    7.8s] Dumped cloth frames to scratch/h.json
+[    7.9s] Frozen cloth surface at frame 46:
+[    7.9s]   cloth bbox x[-0.0696,0.0450] y[-0.0704,0.1614] z[0.0010,0.0133]
+[    7.9s]   edge length ratio mean 1.008  p1 0.984  p99 1.093  max 2.184
+[    7.9s]   self-intersecting triangle pairs: 0
+Traceback (most recent call last):
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 1022, in <module>
+    main()
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 975, in main
+    tort, cloth_surface = freeze_and_thicken(sim)
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 447, in freeze_and_thicken
+    raise RuntimeError("Cloth result is not a folded quarter (bake failed?)")
+RuntimeError: Cloth result is not a folded quarter (bake failed?)
+[    7.9s] FAILED
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)

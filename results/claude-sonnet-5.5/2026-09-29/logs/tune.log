@@ -1,0 +1,32 @@
+[    0.0s] Blender 4.5.10 LTS | Python 3.11.11 | Windows AMD64
+[    0.0s] CPU: AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD (16 logical cores)
+[    0.0s] Output dir: scratch/t1 | resolution 3840x2160 | samples 512 | seed 1337
+[    0.0s] Building cutting board
+[    0.0s] Building backdrop
+[    0.0s] Building tortilla cloth mesh (65x65 grid)
+[    0.0s] Adding hook-driven fold animation (2 successive folds)
+[    0.0s] Configuring cloth
+[    0.0s]   cloth={"quality": 8, "mass": 0.3, "air_damping": 1.0, "tension_stiffness": 15.0, "compression_stiffness": 15.0, "shear_stiffness": 15.0, "bending_stiffness": 10.0, "tension_damping": 5.0, "compression_damping": 5.0, "shear_damping": 5.0, "bending_damping": 1.0, "pin_stiffness": 1.0}
+[    0.0s]   collision={"distance_min": 0.006, "collision_quality": 3, "self_distance_min": 0.01, "self_friction": 5.0, "self_collision": 1}
+[    0.0s] Baking cloth (frames 1-46, 24 fps)
+[    2.3s]   simulated frame 10 (2.2 s)
+[    5.4s]   simulated frame 20 (5.3 s)
+[    9.0s]   simulated frame 30 (9.0 s)
+[   12.5s]   simulated frame 40 (12.4 s)
+[   14.6s] Cloth bake done in 14.6 s
+[   14.7s] Dumped cloth frames to scratch/t1.json
+[   14.8s] Frozen cloth surface at frame 46:
+[   14.8s]   cloth bbox x[-0.0696,0.0450] y[-0.0391,0.1614] z[-0.0021,0.0232]
+[   14.8s]   edge length ratio mean 1.041  p1 0.871  p99 1.396  max 2.184
+[   14.8s]   self-intersecting triangle pairs: 6
+Traceback (most recent call last):
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 1018, in <module>
+    main()
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 971, in main
+    tort, cloth_surface = freeze_and_thicken(sim)
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jordan\PycharmProjects\tortillabench\build_tortilla.py", line 443, in freeze_and_thicken
+    raise RuntimeError("Cloth result is not a folded quarter (bake failed?)")
+RuntimeError: Cloth result is not a folded quarter (bake failed?)
+[   14.8s] FAILED
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)
