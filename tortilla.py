@@ -8,6 +8,7 @@ and for grading.
     python tortilla.py new <model>                      make an isolated workspace
     python tortilla.py collect <workspace> [--model M] [--harness H] [--final IMG]
     python tortilla.py gallery                          rebuild the README gallery
+    python tortilla.py kill                             destroy every tortillabench cloud sandbox
 
 Workspaces go in ~/tortillabench-runs (override with TORTILLABENCH_RUNS).
 Set BLENDER=/path/to/blender if Blender isn't found (used for preview images).
@@ -32,6 +33,25 @@ RUNS = Path(os.environ.get("TORTILLABENCH_RUNS", Path.home() / "tortillabench-ru
 IMAGE_EXTS = {".png", ".exr", ".jpg", ".jpeg", ".tif", ".tiff"}
 SKIP_DIRS = {"__pycache__", ".git", ".venv", ".idea"}
 SKIP_EXTS = {".blend1", ".blend2", ".pyc"}
+HARNESS_FILES = {"TASK.md", "RENDERING.md", "render.py", ".tortillabench.json"}
+RENDERING_MD = """# Rendering
+
+There is no local Blender for this benchmark. Every Blender execution, renders and
+bake-only runs alike, goes to a cloud GPU through `render.py`:
+
+    python render.py build_tortilla.py [-- your script args]
+
+It runs exactly `blender --background --factory-startup --python build_tortilla.py -- <args>`
+in a fresh sandbox (Blender 4.5 LTS, Linux, NVIDIA RTX 5090 or 4090, OptiX/CUDA available),
+streams the output, and downloads every file your script created back here at the same
+relative path. Write outputs relative to the script's own folder.
+
+- Each call starts a clean machine: nothing persists between calls except what was downloaded.
+- Startup takes a minute or two. Exit code is Blender's exit code.
+- Exit code 75 means no GPU capacity right now: nothing ran, so wait a few minutes and retry.
+- Logs of every call are kept in cloud_logs/ and cloud_runs.json. Don't edit or delete them.
+- The sandbox is destroyed after every call. `python render.py --status` lists live ones.
+"""
 PREVIEW = "preview.jpg"
 GALLERY_START = "<!-- gallery:start -->"
 GALLERY_END = "<!-- gallery:end -->"
@@ -95,6 +115,20 @@ def make_preview(src, dest, width=1280):
     return dest.exists()
 
 
+def venv_python():
+    for rel in (".venv/Scripts/python.exe", ".venv/bin/python"):
+        if (ROOT / rel).exists():
+            return str(ROOT / rel)
+    return sys.executable
+
+
+def cloud(args, cwd):
+    """Run render.py with the interpreter that has the Daytona SDK. In a workspace,
+    use its own copy so the run's config (label, credentials) applies."""
+    script = cwd / "render.py" if (cwd / ".tortillabench.json").exists() else ROOT / "render.py"
+    return subprocess.run([venv_python(), str(script), *args], cwd=cwd).returncode
+
+
 def sha256(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -109,6 +143,10 @@ def cmd_new(args):
     ws = unique_dir(RUNS / f"{slugify(args.model)}-{dt.date.today().isoformat()}")
     ws.mkdir(parents=True)
     shutil.copy2(ROOT / "TASK.md", ws / "TASK.md")
+    shutil.copy2(ROOT / "render.py", ws / "render.py")
+    (ws / "RENDERING.md").write_text(RENDERING_MD, encoding="utf-8")
+    config = {"run": ws.name, "python": venv_python(), "env_file": str(ROOT / ".env")}
+    (ws / ".tortillabench.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
     print(ws)
     print("\nStart your agent in that folder and give it the prompt from README.md.")
     print(f"When it's done:  python tortilla.py collect \"{ws}\" --model \"{args.model}\"")
@@ -120,11 +158,15 @@ def cmd_collect(args):
         die(f"{ws} is not a folder")
     if RESULTS in ws.parents or ws == ROOT:
         die("workspace must be outside the repo")
+    if (ws / ".tortillabench.json").exists():
+        print("tortilla: making sure this run's cloud sandboxes are dead", flush=True)
+        if cloud(["--kill"], cwd=ws) != 0:
+            die("some sandboxes are still alive; run `python tortilla.py kill` and retry")
 
     files = [p for p in ws.rglob("*") if p.is_file()
              and not SKIP_DIRS.intersection(p.relative_to(ws).parts)
              and p.suffix.lower() not in SKIP_EXTS
-             and p.name != "TASK.md"]
+             and str(p.relative_to(ws).as_posix()) not in HARNESS_FILES]
 
     # Scripts often save a .blend per iteration; keep only the newest.
     blends = sorted((p for p in files if p.suffix.lower() == ".blend"), key=lambda p: p.stat().st_mtime)
@@ -170,6 +212,7 @@ def cmd_collect(args):
         "final_image": final.relative_to(ws).as_posix() if final else None,
         "preview": PREVIEW if has_preview else None,
         "files": len(copied),
+        "cloud": cloud_summary(ws),
         "notes": args.notes,
         "grade": None,
     }
@@ -179,6 +222,21 @@ def cmd_collect(args):
     print(f"tortilla: final image: {meta['final_image']}  (override with --final)")
     if len(files) > len(copied):
         print(f"tortilla: skipped {len(files) - len(copied)} duplicate file(s)")
+
+
+def cloud_summary(ws):
+    path = ws / "cloud_runs.json"
+    if not path.exists():
+        return None
+    runs = json.loads(path.read_text(encoding="utf-8"))
+    return {"calls": len(runs),
+            "seconds": sum(r["seconds"] for r in runs),
+            "max_cost_usd": round(sum(r["max_cost_usd"] for r in runs), 2),
+            "gpus": sorted({r["gpu"] for r in runs})}
+
+
+def cmd_kill(args):
+    sys.exit(cloud(["--kill", "--all"], cwd=ROOT))
 
 
 def cmd_gallery(args):
@@ -223,6 +281,9 @@ def main():
 
     s = sub.add_parser("gallery", help="rebuild the README gallery from results/")
     s.set_defaults(fn=cmd_gallery)
+
+    s = sub.add_parser("kill", help="destroy every tortillabench cloud sandbox and verify")
+    s.set_defaults(fn=cmd_kill)
 
     args = p.parse_args()
     args.fn(args)
