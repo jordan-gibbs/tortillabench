@@ -33,5 +33,6 @@
     "verdict": "The submission successfully automates a highly complex procedural physics and shading pipeline with effective iterative self-correction, though the final materials retain a somewhat synthetic appearance.",
     "judge": "gemini-3.1-pro-preview (via opencode)",
     "graded": "2026-10-05"
-  }
+  },
+  "wall_clock_minutes": 356
 }

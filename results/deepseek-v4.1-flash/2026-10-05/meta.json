@@ -33,5 +33,6 @@
     "verdict": "The pipeline runs headlessly and handles geometry and folding well, but a critical shader bug left both the tortilla and board completely untextured in the final budget-constrained render.",
     "judge": "gemini-3.1-pro-preview (via opencode)",
     "graded": "2026-10-05"
-  }
+  },
+  "wall_clock_minutes": 188
 }

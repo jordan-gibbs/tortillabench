@@ -25,5 +25,6 @@
     "verdict": "The model successfully delivered a procedural headless script simulating the fold mechanics, with solid camera setup and iterative refinement, though the materials remain somewhat synthetic.",
     "judge": "gemini-3.1-pro-preview (via opencode)",
     "graded": "2026-10-05"
-  }
+  },
+  "wall_clock_minutes": 68
 }

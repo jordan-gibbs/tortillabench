@@ -33,5 +33,6 @@
     "verdict": "The script successfully runs headlessly and adheres to all constraints, with good iteration logic and camera setup. However, the procedural materials and cloth simulation yield a slightly synthetic look, particularly with the overly uniform char spots and scalloped layer edges.",
     "judge": "gemini-3.1-pro-preview (via opencode)",
     "graded": "2026-10-05"
-  }
+  },
+  "wall_clock_minutes": 71
 }

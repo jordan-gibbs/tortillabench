@@ -12,14 +12,14 @@ It's a fun benchmark covering 3D modeling, physics, procedural materials, photog
 
 ![TortillaBench round 1 grades](assets/round1_grades.jpg)
 
-| Model | Agent | Grade | Cloud calls | GPU time | Notes |
-|---|---|---|---|---|---|
-| Claude Opus 5.5 | Claude Code | 6.3 | 33 | ~9.7 h | About 30 simulation-only bakes to solve the second fold; the only run that added props and steam |
-| GPT-6 Astra | Codex | 6.0 | 3 | ~0.9 h | Cleanest layered fold and the strongest char spots |
-| Claude Sonnet 5.5 | Claude Code | 5.6 | n/a | n/a | Ran before cloud rendering existed, on local Blender |
-| DeepSeek V4.1 Flash | pi | 4.7 | 34 | ~1.7 h | Six shader links dropped before the last render, so the materials came out flat (the model caught and reported this itself) |
+| Model | Agent | Grade | Wall clock | Cloud calls | GPU time | Notes |
+|---|---|---|---|---|---|---|
+| Claude Opus 5.5 | Claude Code | 6.3 | 5h 56m | 33 | ~9.7 h | About 30 simulation-only bakes to solve the second fold; the only run that added props and steam |
+| GPT-6 Astra | Codex | 6.0 | 1h 11m | 3 | ~0.9 h | Cleanest layered fold and the strongest char spots |
+| Claude Sonnet 5.5 | Claude Code | 5.6 | 1h 08m | n/a | n/a | Ran before cloud rendering existed, on local Blender |
+| DeepSeek V4.1 Flash | pi | 4.7 | 3h 08m | 34 | ~1.7 h | Six shader links dropped before the last render, so the materials came out flat (the model caught and reported this itself) |
 
-Grades are from one pass of Gemini 3.1 Pro using [`GRADING.md`](GRADING.md); a non-Anthropic, non-OpenAI judge was picked so no model grades itself. Treat differences under about half a point as noise.
+Grades are from one pass of Gemini 3.1 Pro using [`GRADING.md`](GRADING.md); a non-Anthropic, non-OpenAI judge was picked so no model grades itself. Treat differences under about half a point as noise. Wall clock is first to last message in the agent session log.
 
 ## Gallery
 
