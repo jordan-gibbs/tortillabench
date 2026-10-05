@@ -1,0 +1,248 @@
+# 20261005-014509 sandbox 89dbbba0-8321-4817-91e8-ec5618a53751 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only
+
+[    0.0s] === build_tortilla.py starting ===
+[    0.0s] argv: /opt/blender/blender --background --factory-startup --python build_tortilla.py -- --bake-only
+[    0.1s] Scene reset to empty factory state.
+[    0.1s] Host: Linux-6.8.0-137-generic-x86_64-with-glibc2.36 | x86_64 | Blender 4.5.13 LTS
+[    0.1s] Cutting board built (500 x 360 x 30 mm, beveled).
+[    0.1s] Collision plane created at z=0 (single-sided, impulse-clamped).
+[    0.1s]   pinned 139 verts in the stationary quarter.
+[    0.1s] Tortilla mesh built: 609 verts, 556 faces (uniform grid disk).
+[    0.1s] Wood material built (procedural grain + scratches + satin coat).
+[    0.1s] Lighting built: soft key + fill + rim + top (all procedural area lights).
+[    0.1s] World built: procedural vertical gradient (no HDRI).
+[    0.1s] Camera built: 85 mm, f/2.8, DoF focused on leading folded edge.
+[    0.1s] Steam volume material built (subtle).
+[    0.1s] Subtle volumetric steam domain added.
+[    0.2s] Cycles device: OPTIX ['NVIDIA GeForce RTX 5090']
+[    0.2s] Render: Cycles 3840x2160, 512 samples, AgX, 16-bit PNG.
+[    0.2s] === Fold 1: x>0 -> x<0 (hinge = Y axis) ===
+[    0.2s]   pin property: Vertex Group for pinning of vertices
+[    0.3s] Baking fold 1 (75 frames, quality 8)...
+[  100.8s] fold 1 bake finished in 100.5s.
+[  100.9s]   [fold 1] f  1 sheet x[-0.107,0.113] y[-0.113,0.108] z[0.0030,0.0030]
+[  100.9s]       P1Bot  x[0.005,0.118] z[-0.0040,0.0000]
+[  100.9s]       P1Top  x[0.005,0.118] z[0.0015,0.0055]
+[  100.9s]   [fold 1] f 15 sheet x[-0.107,0.089] y[-0.114,0.097] z[-0.0057,0.0185]
+[  100.9s]       P1Bot  x[0.005,0.118] z[-0.0040,0.0000]
+[  100.9s]       P1Top  x[0.005,0.118] z[0.0015,0.0055]
+[  100.9s]   [fold 1] f 30 sheet x[-0.107,0.047] y[-0.112,0.073] z[-0.0043,0.0418]
+[  100.9s]       P1Bot  x[0.006,0.107] z[-0.0007,0.0557]
+[  100.9s]       P1Top  x[0.003,0.104] z[0.0042,0.0606]
+[  100.9s]   [fold 1] f 45 sheet x[-0.107,0.018] y[-0.111,0.082] z[-0.0033,0.0382]
+[  100.9s]       P1Bot  x[0.002,0.006] z[0.0077,0.1199]
+[  100.9s]       P1Top  x[-0.003,0.001] z[0.0077,0.1199]
+[  101.0s]   [fold 1] f 60 sheet x[-0.107,0.019] y[-0.111,0.069] z[-0.0065,0.0364]
+[  101.0s]       P1Bot  x[-0.103,-0.002] z[0.0067,0.0632]
+[  101.0s]       P1Top  x[-0.105,-0.005] z[0.0019,0.0583]
+[  101.0s]   [fold 1] f 75 sheet x[-0.107,0.022] y[-0.111,0.073] z[-0.0127,0.0536]
+[  101.0s]       P1Bot  x[-0.118,-0.005] z[0.0044,0.0084]
+[  101.0s]       P1Top  x[-0.118,-0.005] z[-0.0011,0.0029]
+[  101.0s] fold 1: cloth pose applied to mesh.
+[  101.0s] ---- after fold 1 ----
+[  101.0s]   verts                        609
+[  101.0s]   x                            (-0.10744688659906387, 0.021908218041062355)
+[  101.0s]   y                            (-0.11131683737039566, 0.07271368056535721)
+[  101.0s]   z                            (-0.012720830738544464, 0.05358318239450455)
+[  101.0s]   span                         (0.12935510464012623, 0.18403051793575287, 0.06630401313304901)
+[  101.0s]   quadrants_[--,-+,+-,++]      [243, 97, 192, 77]
+[  101.0s] ---------------------------------------------------
+[  101.0s] === Fold 2: y>0 -> y<0 (hinge = X axis) ===
+[  101.0s]   pin property: Vertex Group for pinning of vertices
+[  101.8s] Baking fold 2 (75 frames, quality 8)...
+[  211.4s] fold 2 bake finished in 109.6s.
+[  211.5s]   [fold 2] f  1 sheet x[-0.107,0.022] y[-0.111,0.073] z[-0.0127,0.0536]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[-0.0040,0.0000]
+[  211.5s]       P2Top  x[-0.118,0.005] z[0.0033,0.0073]
+[  211.5s]   [fold 2] f 15 sheet x[-0.107,0.035] y[-0.111,0.040] z[-0.0115,0.0562]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[-0.0040,0.0000]
+[  211.5s]       P2Top  x[-0.118,0.005] z[0.0033,0.0073]
+[  211.5s]   [fold 2] f 30 sheet x[-0.107,0.033] y[-0.111,0.018] z[-0.0064,0.0578]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[-0.0005,0.0559]
+[  211.5s]       P2Top  x[-0.118,0.005] z[0.0059,0.0623]
+[  211.5s]   [fold 2] f 45 sheet x[-0.107,0.041] y[-0.111,0.020] z[-0.0024,0.0506]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[0.0090,0.1212]
+[  211.5s]       P2Top  x[-0.118,0.005] z[0.0090,0.1212]
+[  211.5s]   [fold 2] f 60 sheet x[-0.107,0.042] y[-0.111,0.027] z[-0.0025,0.0334]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[0.0092,0.0656]
+[  211.5s]       P2Top  x[-0.118,0.005] z[0.0027,0.0592]
+[  211.5s]   [fold 2] f 75 sheet x[-0.107,0.058] y[-0.111,0.039] z[-0.0082,0.0413]
+[  211.5s]       P2Bot  x[-0.118,0.005] z[0.0070,0.0110]
+[  211.5s]       P2Top  x[-0.118,0.005] z[-0.0003,0.0037]
+[  211.5s] fold 2: cloth pose applied to mesh.
+[  211.5s] ---- after fold 2 ----
+[  211.5s]   verts                        609
+[  211.5s]   x                            (-0.10744688659906387, 0.05833525210618973)
+[  211.5s]   y                            (-0.11140000075101852, 0.0394865907728672)
+[  211.5s]   z                            (-0.008164700120687485, 0.04131101816892624)
+[  211.5s]   span                         (0.1657821387052536, 0.15088659152388573, 0.049475718289613724)
+[  211.5s]   quadrants_[--,-+,+-,++]      [188, 171, 159, 91]
+[  211.5s] ---------------------------------------------------
+[  211.5s] Tortilla material built (procedural, node-based).
+[  211.5s] ---- final shell ----
+[  211.7s]   verts                        19458
+[  211.7s]   x                            (-0.10641147941350937, 0.056920748203992844)
+[  211.7s]   y                            (-0.11058691143989563, 0.03834923729300499)
+[  211.7s]   z                            (-0.005925605073571205, 0.0403597392141819)
+[  211.7s]   span                         (0.1633322276175022, 0.14893614873290062, 0.046285344287753105)
+[  211.7s]   quadrants_[--,-+,+-,++]      [6048, 5532, 5128, 2750]
+[  211.7s] ---------------------------------------------------
+Info: Saved as "tortilla_baked.blend"
+[  211.7s] Saved .blend: /workspace/output/tortilla_baked.blend
+[  211.7s] Wrote /workspace/output/run_info.txt
+[  211.7s] --bake-only requested: skipping render.
+[  211.7s] === done in 211.7s; outputs in /workspace/output ===
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 75
+bake: frame 2 :: 75
+bake: frame 3 :: 75
+bake: frame 4 :: 75
+bake: frame 5 :: 75
+bake: frame 6 :: 75
+bake: frame 7 :: 75
+bake: frame 8 :: 75
+bake: frame 9 :: 75
+bake: frame 10 :: 75
+bake: frame 11 :: 75
+bake: frame 12 :: 75
+bake: frame 13 :: 75
+bake: frame 14 :: 75
+bake: frame 15 :: 75
+bake: frame 16 :: 75
+bake: frame 17 :: 75
+bake: frame 18 :: 75
+bake: frame 19 :: 75
+bake: frame 20 :: 75
+bake: frame 21 :: 75
+bake: frame 22 :: 75
+bake: frame 23 :: 75
+bake: frame 24 :: 75
+bake: frame 25 :: 75
+bake: frame 26 :: 75
+bake: frame 27 :: 75
+bake: frame 28 :: 75
+bake: frame 29 :: 75
+bake: frame 30 :: 75
+bake: frame 31 :: 75
+bake: frame 32 :: 75
+bake: frame 33 :: 75
+bake: frame 34 :: 75
+bake: frame 35 :: 75
+bake: frame 36 :: 75
+bake: frame 37 :: 75
+bake: frame 38 :: 75
+bake: frame 39 :: 75
+bake: frame 40 :: 75
+bake: frame 41 :: 75
+bake: frame 42 :: 75
+bake: frame 43 :: 75
+bake: frame 44 :: 75
+bake: frame 45 :: 75
+bake: frame 46 :: 75
+bake: frame 47 :: 75
+bake: frame 48 :: 75
+bake: frame 49 :: 75
+bake: frame 50 :: 75
+bake: frame 51 :: 75
+bake: frame 52 :: 75
+bake: frame 53 :: 75
+bake: frame 54 :: 75
+bake: frame 55 :: 75
+bake: frame 56 :: 75
+bake: frame 57 :: 75
+bake: frame 58 :: 75
+bake: frame 59 :: 75
+bake: frame 60 :: 75
+bake: frame 61 :: 75
+bake: frame 62 :: 75
+bake: frame 63 :: 75
+bake: frame 64 :: 75
+bake: frame 65 :: 75
+bake: frame 66 :: 75
+bake: frame 67 :: 75
+bake: frame 68 :: 75
+bake: frame 69 :: 75
+bake: frame 70 :: 75
+bake: frame 71 :: 75
+bake: frame 72 :: 75
+bake: frame 73 :: 75
+bake: frame 74 :: 75
+bake: frame 75 :: 75
+bake: frame 1 :: 75
+bake: frame 2 :: 75
+bake: frame 3 :: 75
+bake: frame 4 :: 75
+bake: frame 5 :: 75
+bake: frame 6 :: 75
+bake: frame 7 :: 75
+bake: frame 8 :: 75
+bake: frame 9 :: 75
+bake: frame 10 :: 75
+bake: frame 11 :: 75
+bake: frame 12 :: 75
+bake: frame 13 :: 75
+bake: frame 14 :: 75
+bake: frame 15 :: 75
+bake: frame 16 :: 75
+bake: frame 17 :: 75
+bake: frame 18 :: 75
+bake: frame 19 :: 75
+bake: frame 20 :: 75
+bake: frame 21 :: 75
+bake: frame 22 :: 75
+bake: frame 23 :: 75
+bake: frame 24 :: 75
+bake: frame 25 :: 75
+bake: frame 26 :: 75
+bake: frame 27 :: 75
+bake: frame 28 :: 75
+bake: frame 29 :: 75
+bake: frame 30 :: 75
+bake: frame 31 :: 75
+bake: frame 32 :: 75
+bake: frame 33 :: 75
+bake: frame 34 :: 75
+bake: frame 35 :: 75
+bake: frame 36 :: 75
+bake: frame 37 :: 75
+bake: frame 38 :: 75
+bake: frame 39 :: 75
+bake: frame 40 :: 75
+bake: frame 41 :: 75
+bake: frame 42 :: 75
+bake: frame 43 :: 75
+bake: frame 44 :: 75
+bake: frame 45 :: 75
+bake: frame 46 :: 75
+bake: frame 47 :: 75
+bake: frame 48 :: 75
+bake: frame 49 :: 75
+bake: frame 50 :: 75
+bake: frame 51 :: 75
+bake: frame 52 :: 75
+bake: frame 53 :: 75
+bake: frame 54 :: 75
+bake: frame 55 :: 75
+bake: frame 56 :: 75
+bake: frame 57 :: 75
+bake: frame 58 :: 75
+bake: frame 59 :: 75
+bake: frame 60 :: 75
+bake: frame 61 :: 75
+bake: frame 62 :: 75
+bake: frame 63 :: 75
+bake: frame 64 :: 75
+bake: frame 65 :: 75
+bake: frame 66 :: 75
+bake: frame 67 :: 75
+bake: frame 68 :: 75
+bake: frame 69 :: 75
+bake: frame 70 :: 75
+bake: frame 71 :: 75
+bake: frame 72 :: 75
+bake: frame 73 :: 75
+bake: frame 74 :: 75
+bake: frame 75 :: 75
+
+# exit 0  226s  files: ['output/run_info.txt', 'output/tortilla_baked.blend']

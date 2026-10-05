@@ -1,0 +1,10 @@
+render.py: cloud run 32 — spot RTX-5090 > RTX-4090, 8 vCPU, 16 GB, TTL 60 min (max $1.40)
+render.py: sandbox 5ea03f2c-1ca5-4629-9d60-c1ed012b1be0 up on RTX-5090 (4s)
+[tortilla     0.0s] Blender 4.5.13 LTS | Python 3.11.15 | Linux x86_64 | output dir /workspace/bakes/bake31_nospike
+[tortilla     0.0s] scene cleared (0 objects left)
+[tortilla     0.1s] tortilla mesh: 3367 verts, 6534 tris, 33 rings, edge 3.3 mm, diameter ~22 cm
+[tortilla     0.1s] cutting board 48 x 32 x 2.2 cm, rounded corners, bevelled edges, 398 faces (collider)
+[tortilla     0.1s] cloth simulation: 4 stages (fold 1, settle, fold 2, settle)
+[tortilla     0.1s]   fold 1: yaw +2.2 deg, offset 2.7 mm, hinge band 14.0 mm, 1495 pinned flap verts, axis height 5.0 mm
+[tortilla   293.5s]   [fold1] baked 90 frames in 293.2s
+[tortilla   293.6s]   [fold1] frozen frame 90: z min 2.01 mm, median 5.29 mm, max 9.05 mm, verts below 0.3 mm: 0

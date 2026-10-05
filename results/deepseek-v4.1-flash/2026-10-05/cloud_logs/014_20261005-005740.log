@@ -1,0 +1,263 @@
+# 20261005-005740 sandbox 50a8f879-534b-4960-a141-c3c7ef7a6ecd gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only
+
+[    0.0s] === build_tortilla.py starting ===
+[    0.0s] argv: /opt/blender/blender --background --factory-startup --python build_tortilla.py -- --bake-only
+[    0.1s] Scene reset to empty factory state.
+[    0.1s] Host: Linux-6.8.0-137-generic-x86_64-with-glibc2.36 | x86_64 | Blender 4.5.13 LTS
+[    0.1s] Cutting board built (500 x 360 x 30 mm, beveled).
+[    0.1s] WARNING: collision plane settings: AttributeError("'CollisionSettings' object has no attribute 'impulse_clamp'")
+[    0.1s] Collision plane created at z=0 (single-sided, impulse-clamped).
+[    0.2s]   pinned 139 verts in the stationary quarter.
+[    0.2s] Tortilla mesh built: 609 verts, 556 faces (uniform grid disk).
+[    0.2s]   pin property: Vertex Group for pinning of vertices
+[    0.4s] Fold rig built (cloth + 2 animated paddle colliders). Frames 1-186.
+[    0.4s] Wood material built (procedural grain + scratches + satin coat).
+[    0.4s] Tortilla material built (procedural, node-based).
+[    0.4s] Lighting built: soft key + fill + rim + top (all procedural area lights).
+[    0.4s] World built: procedural vertical gradient (no HDRI).
+[    0.4s] Camera built: 85 mm, f/2.8, DoF focused on leading folded edge.
+[    0.4s] Steam volume material built (subtle).
+[    0.4s] Subtle volumetric steam domain added.
+[    0.6s] Cycles device: OPTIX ['NVIDIA GeForce RTX 5090']
+[    0.6s] Render: Cycles 3840x2160, 512 samples, AgX, 16-bit PNG.
+[    0.6s]   scene.gravity = (0.0, 0.0, -9.8100004196167)
+[    0.8s]   world bbox CuttingBoard x[-0.250,0.250] y[-0.180,0.180] z[-0.030,0.000]
+[    0.8s]   world bbox Paddle1      x[-0.117,-0.005] y[-0.116,0.116] z[0.408,0.412]
+[    0.8s]   world bbox Paddle2      x[-0.116,0.005] y[-0.117,-0.005] z[0.414,0.418]
+[    0.8s] Baking cloth simulation (186 frames, quality 8)...
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 186
+bake: frame 2 :: 186
+bake: frame 3 :: 186
+bake: frame 4 :: 186
+bake: frame 5 :: 186
+bake: frame 6 :: 186
+bake: frame 7 :: 186
+bake: frame 8 :: 186
+bake: frame 9 :: 186
+bake: frame 10 :: 186
+bake: frame 11 :: 186
+bake: frame 12 :: 186
+bake: frame 13 :: 186
+bake: frame 14 :: 186
+bake: frame 15 :: 186
+bake: frame 16 :: 186
+bake: frame 17 :: 186
+bake: frame 18 :: 186
+bake: frame 19 :: 186
+bake: frame 20 :: 186
+bake: frame 21 :: 186
+bake: frame 22 :: 186
+bake: frame 23 :: 186
+bake: frame 24 :: 186
+bake: frame 25 :: 186
+bake: frame 26 :: 186
+bake: frame 27 :: 186
+bake: frame 28 :: 186
+bake: frame 29 :: 186
+bake: frame 30 :: 186
+bake: frame 31 :: 186
+bake: frame 32 :: 186
+bake: frame 33 :: 186
+bake: frame 34 :: 186
+bake: frame 35 :: 186
+bake: frame 36 :: 186
+bake: frame 37 :: 186
+bake: frame 38 :: 186
+bake: frame 39 :: 186
+bake: frame 40 :: 186
+bake: frame 41 :: 186
+bake: frame 42 :: 186
+bake: frame 43 :: 186
+bake: frame 44 :: 186
+bake: frame 45 :: 186
+bake: frame 46 :: 186
+bake: frame 47 :: 186
+bake: frame 48 :: 186
+bake: frame 49 :: 186
+bake: frame 50 :: 186
+bake: frame 51 :: 186
+bake: frame 52 :: 186
+bake: frame 53 :: 186
+bake: frame 54 :: 186
+bake: frame 55 :: 186
+bake: frame 56 :: 186
+bake: frame 57 :: 186
+bake: frame 58 :: 186
+bake: frame 59 :: 186
+bake: frame 60 :: 186
+bake: frame 61 :: 186
+bake: frame 62 :: 186
+bake: frame 63 :: 186
+bake: frame 64 :: 186
+bake: frame 65 :: 186
+bake: frame 66 :: 186
+bake: frame 67 :: 186
+bake: frame 68 :: 186
+bake: frame 69 :: 186
+bake: frame 70 :: 186
+bake: frame 71 :: 186
+bake: frame 72 :: 186
+bake: frame 73 :: 186
+bake: frame 74 :: 186
+bake: frame 75 :: 186
+bake: frame 76 :: 186
+bake: frame 77 :: 186
+bake: frame 78 :: 186
+bake: frame 79 :: 186
+bake: frame 80 :: 186
+bake: frame 81 :: 186
+bake: frame 82 :: 186
+bake: frame 83 :: 186
+bake: frame 84 :: 186
+bake: frame 85 :: 186
+bake: frame 86 :: 186
+bake: frame 87 :: 186
+bake: frame 88 :: 186
+bake: frame 89 :: 186
+bake: frame 90 :: 186
+bake: frame 91 :: 186
+bake: frame 92 :: 186
+bake: frame 93 :: 186
+bake: frame 94 :: 186
+bake: frame 95 :: 186
+bake: frame 96 :: 186
+bake: frame 97 :: 186
+bake: frame 98 :: 186
+bake: frame 99 :: 186
+bake: frame 100 :: 186
+bake: frame 101 :: 186
+bake: frame 102 :: 186
+bake: frame 103 :: 186
+bake: frame 104 :: 186
+bake: frame 105 :: 186
+bake: frame 106 :: 186
+bake: frame 107 :: 186
+bake: frame 108 :: 186
+bake: frame 109 :: 186
+bake: frame 110 :: 186
+bake: frame 111 :: 186
+bake: frame 112 :: 186
+bake: frame 113 :: 186
+bake: frame 114 :: 186
+bake: frame 115 :: 186
+bake: frame 116 :: 186
+bake: frame 117 :: 186
+bake: frame 118 :: 186
+bake: frame 119 :: 186
+bake: frame 120 :: 186
+bake: frame 121 :: 186
+bake: frame 122 :: 186
+bake: frame 123 :: 186
+bake: frame 124 :: 186
+bake: frame 125 :: 186
+bake: frame 126 :: 186
+bake: frame 127 :: 186
+bake: frame 128 :: 186
+bake: frame 129 :: 186
+bake: frame 130 :: 186
+bake: frame 131 :: 186
+bake: frame 132 :: 186
+bake: frame 133 :: 186
+bake: frame 134 :: 186
+bake: frame 135 :: 186
+bake: frame 136 :: 186
+bake: frame 137 :: 186
+bake: frame 138 :: 186
+bake: frame 139 :: 186
+bake: frame 140 :: 186
+bake: frame 141 :: 186
+bake: frame 142 :: 186
+bake: frame 143 :: 186
+bake: frame 144 :: 186
+bake: frame 145 :: 186
+bake: frame 146 :: 186
+bake: frame 147 :: 186
+bake: frame 148 :: 186
+bake: frame 149 :: 186
+bake: frame 150 :: 186
+bake: frame 151 :: 186
+bake: frame 152 :: 186
+bake: frame 153 :: 186
+bake: frame 154 :: 186
+bake: frame 155 :: 186
+bake: frame 156 :: 186
+bake: frame 157 :: 186
+bake: frame 158 :: 186
+bake: frame 159 :: 186
+bake: frame 160 :: 186
+bake: frame 161 :: 186
+bake: frame 162 :: 186
+bake: frame 163 :: 186
+bake: frame 164 :: 186
+bake: frame 165 :: 186
+bake: frame 166 :: 186
+bake: frame 167 :: 186
+bake: frame 168 :: 186
+bake: frame 169 :: 186
+bake: frame 170 :: 186
+bake: frame 171 :: 186
+bake: frame 172 :: 186
+bake: frame 173 :: 186
+bake: frame 174 :: 186
+bake: frame 175 :: 186
+bake: frame 176 :: 186
+bake: frame 177 :: 186
+bake: frame 178 :: 186
+bake: frame 179 :: 186
+bake: frame 180 :: 186[  167.0s] Cloth bake finished in 166.2s.
+[  167.3s]   frame   1  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.003,0.005]  quads=[4910, 4864, 4864, 4820]
+[  167.3s]              sheet z[0.0030,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  167.5s]   frame   2  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.005]  quads=[4863, 4915, 4914, 4766]
+[  167.5s]              sheet z[0.0021,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  167.6s]   frame   4  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.005]  quads=[4864, 4914, 4914, 4766]
+[  167.6s]              sheet z[0.0019,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  167.8s]   frame   6  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.005]  quads=[4866, 4916, 4914, 4762]
+[  167.8s]              sheet z[0.0019,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  167.9s]   frame   8  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.005]  quads=[4866, 4918, 4915, 4759]
+[  167.9s]              sheet z[0.0018,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  168.0s]   frame  10  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.005]  quads=[4866, 4916, 4915, 4761]
+[  168.0s]              sheet z[0.0019,0.0030] x[-0.107,0.113] y[-0.113,0.108]
+[  168.2s]   frame  15  mesh x[-0.107,0.112] y[-0.112,0.107] z[0.002,0.006]  quads=[4867, 4917, 4902, 4772]
+[  168.2s]              sheet z[0.0017,0.0043] x[-0.107,0.113] y[-0.113,0.108]
+[  168.3s]   frame  25  mesh x[-0.107,0.106] y[-0.112,0.102] z[0.001,0.025]  quads=[4955, 4927, 4811, 4765]
+[  168.3s]              sheet z[-0.0009,0.0238] x[-0.107,0.107] y[-0.112,0.102]
+[  168.5s]   frame  71  mesh x[-0.107,0.013] y[-0.110,0.092] z[0.001,0.023]  quads=[8784, 1187, 7248, 2239]
+[  168.5s]              sheet z[-0.0017,0.0258] x[-0.107,0.015] y[-0.111,0.093]
+[  168.7s]   frame  75  mesh x[-0.107,0.019] y[-0.110,0.086] z[0.001,0.023]  quads=[8622, 1505, 6296, 3035]
+[  168.7s]              sheet z[-0.0011,0.0254] x[-0.107,0.021] y[-0.111,0.086]
+[  168.9s]   frame  92  mesh x[-0.106,0.060] y[-0.111,0.073] z[0.003,0.043]  quads=[5574, 5484, 4487, 3913]
+[  168.9s]              sheet z[0.0018,0.0443] x[-0.107,0.063] y[-0.112,0.073]
+[  169.1s]   frame 102  mesh x[-0.107,0.081] y[-0.111,0.091] z[0.002,0.031]  quads=[4991, 4888, 4753, 4826]
+[  169.1s]              sheet z[0.0015,0.0305] x[-0.107,0.085] y[-0.112,0.092]
+[  169.2s]   frame 148  mesh x[-0.106,0.072] y[-0.110,0.060] z[0.002,0.042]  quads=[6571, 4310, 5735, 2842]
+[  169.2s]              sheet z[0.0007,0.0441] x[-0.107,0.073] y[-0.111,0.060]
+[  169.4s]   frame 152  mesh x[-0.106,0.075] y[-0.110,0.065] z[0.002,0.040]  quads=[5926, 4556, 6154, 2822]
+[  169.4s]              sheet z[0.0012,0.0413] x[-0.107,0.076] y[-0.111,0.065]
+[  169.7s]   frame 169  mesh x[-0.106,0.076] y[-0.111,0.071] z[0.002,0.031]  quads=[6152, 3794, 6594, 2918]
+[  169.7s]              sheet z[0.0016,0.0333] x[-0.107,0.077] y[-0.111,0.071]
+[  169.9s]   frame 186  mesh x[-0.107,0.068] y[-0.110,0.078] z[0.003,0.035]  quads=[6731, 3349, 6581, 2797]
+[  169.9s]              sheet z[0.0019,0.0364] x[-0.107,0.069] y[-0.111,0.079]
+[  169.9s] ---- folded-tortilla diagnostics (final frame) ----
+[  169.9s]   verts                        19458
+[  169.9s]   x                            (-0.10650133341550827, 0.06849080324172974)
+[  169.9s]   y                            (-0.11007016897201538, 0.07844473421573639)
+[  169.9s]   z                            (0.002610048744827509, 0.034504860639572144)
+[  169.9s]   span                         (0.174992136657238, 0.18851490318775177, 0.031894811894744635)
+[  169.9s]   quadrants_[--,-+,+-,++]      [6731, 3349, 6581, 2797]
+[  169.9s] ---------------------------------------------------
+Info: Saved as "tortilla_baked.blend"
+[  169.9s] Saved .blend: /workspace/output/tortilla_baked.blend
+[  169.9s] Wrote /workspace/output/run_info.txt
+[  169.9s] --bake-only requested: skipping render.
+[  169.9s] === done in 169.9s; outputs in /workspace/output ===
+
+bake: frame 181 :: 186
+bake: frame 182 :: 186
+bake: frame 183 :: 186
+bake: frame 184 :: 186
+bake: frame 185 :: 186
+bake: frame 186 :: 186
+
+# exit 0  181s  files: ['output/run_info.txt', 'output/tortilla_baked.blend']

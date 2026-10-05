@@ -1,0 +1,9 @@
+# 20261004-161649 sandbox c089406c-044a-499b-9dcb-f6467961d844 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only --output-dir bakes/bake02
+
+[tortilla     0.0s] Blender 4.5.13 LTS | Python 3.11.15 | Linux x86_64 | output dir /workspace/bakes/bake02
+[tortilla     0.0s] scene cleared (0 objects left)
+[tortilla     0.0s] tortilla mesh: 3367 verts, 6534 tris, 33 rings, edge 3.3 mm, diameter ~22 cm
+[tortilla     0.1s] cutting board 48 x 32 x 2.2 cm, rounded corners, bevelled edges, 398 faces (collider)
+[tortilla     0.1s] cloth simulation: 4 stages (fold 1, settle, fold 2, settle)
+[tortilla     0.1s]   fold 1: yaw +2.2 deg, offset 2.7 mm, 464 pinned rim verts, hinge height 4.0 mm

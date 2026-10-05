@@ -1,0 +1,18 @@
+{
+  "model": "Claude Opus 5.5",
+  "harness": "claude-code",
+  "date": "2026-10-04",
+  "final_image": "tortilla_final.png",
+  "preview": "preview.jpg",
+  "files": 314,
+  "cloud": {
+    "calls": 33,
+    "seconds": 34982,
+    "max_cost_usd": 13.63,
+    "gpus": [
+      "RTX-5090"
+    ]
+  },
+  "notes": "",
+  "grade": null
+}

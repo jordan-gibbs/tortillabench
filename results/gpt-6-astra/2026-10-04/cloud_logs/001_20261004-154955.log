@@ -1,0 +1,229 @@
+# 20261004-154955 sandbox 7ae0ec2a-94ca-4388-9d88-c4c884a11121 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --output iterations/01 --width 1920 --samples 192
+
+[TORTILLA     0.00s] Starting self-contained tortilla construction
+[TORTILLA     0.00s] Blender 4.5.13 LTS; Linux-6.8.0-137-generic-x86_64-with-glibc2.36; 192 logical CPUs
+[TORTILLA     0.03s] GPU hardware: name, driver_version, memory.total [MiB]
+NVIDIA GeForce RTX 5090, 580.76.05, 32607 MiB
+[TORTILLA     0.17s] Cycles GPU: NVIDIA GeForce RTX 5090 (CUDA), NVIDIA GeForce RTX 5090 (OPTIX)
+[TORTILLA     1.05s] Baking cloth: 7225 vertices, frames 1–132, two successive folds
+[TORTILLA   111.16s] Cloth bake frame 12/132
+[TORTILLA   253.36s] Cloth bake frame 24/132
+[TORTILLA   397.66s] Cloth bake frame 36/132
+[TORTILLA   534.95s] Cloth bake frame 48/132
+[TORTILLA   677.16s] Cloth bake frame 60/132
+[TORTILLA   818.54s] Cloth bake frame 72/132
+[TORTILLA   969.55s] Cloth bake frame 84/132
+[TORTILLA  1122.76s] Cloth bake frame 96/132
+[TORTILLA  1274.65s] Cloth bake frame 108/132
+[TORTILLA  1432.25s] Cloth bake frame 120/132
+[TORTILLA  1592.65s] Cloth bake frame 132/132
+[TORTILLA  1592.87s] Cloth baked in 1591.8s; final solver bounds [[-1.133333444595337, -0.005132765043526888], [-1.1309874057769775, -0.035035476088523865], [0.0058630695566535, 0.2152654230594635]]
+[TORTILLA  1593.25s] Final thickness contact correction 9.049 mm; board clearance 0.030 mm
+Info: Saved as "tortilla.blend"
+[TORTILLA  1594.49s] Saved baked scene: /workspace/iterations/01/tortilla.blend
+[TORTILLA  1594.49s] Rendering 1920x1080, 192 samples, 16-bit PNG
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 132
+bake: frame 2 :: 132
+bake: frame 3 :: 132
+bake: frame 4 :: 132
+bake: frame 5 :: 132
+bake: frame 6 :: 132
+bake: frame 7 :: 132
+bake: frame 8 :: 132
+bake: frame 9 :: 132
+bake: frame 10 :: 132
+bake: frame 11 :: 132
+bake: frame 12 :: 132
+bake: frame 13 :: 132
+bake: frame 14 :: 132
+bake: frame 15 :: 132
+bake: frame 16 :: 132
+bake: frame 17 :: 132
+bake: frame 18 :: 132
+bake: frame 19 :: 132
+bake: frame 20 :: 132
+bake: frame 21 :: 132
+bake: frame 22 :: 132
+bake: frame 23 :: 132
+bake: frame 24 :: 132
+bake: frame 25 :: 132
+bake: frame 26 :: 132
+bake: frame 27 :: 132
+bake: frame 28 :: 132
+bake: frame 29 :: 132
+bake: frame 30 :: 132
+bake: frame 31 :: 132
+bake: frame 32 :: 132
+bake: frame 33 :: 132
+bake: frame 34 :: 132
+bake: frame 35 :: 132
+bake: frame 36 :: 132
+bake: frame 37 :: 132
+bake: frame 38 :: 132
+bake: frame 39 :: 132
+bake: frame 40 :: 132
+bake: frame 41 :: 132
+bake: frame 42 :: 132
+bake: frame 43 :: 132
+bake: frame 44 :: 132
+bake: frame 45 :: 132
+bake: frame 46 :: 132
+bake: frame 47 :: 132
+bake: frame 48 :: 132
+bake: frame 49 :: 132
+bake: frame 50 :: 132
+bake: frame 51 :: 132
+bake: frame 52 :: 132
+bake: frame 53 :: 132
+bake: frame 54 :: 132
+bake: frame 55 :: 132
+bake: frame 56 :: 132
+bake: frame 57 :: 132
+bake: frame 58 :: 132
+bake: frame 59 :: 132
+bake: frame 60 :: 132
+bake: frame 61 :: 132
+bake: frame 62 :: 132
+bake: frame 63 :: 132
+bake: frame 64 :: 132
+bake: frame 65 :: 132
+bake: frame 66 :: 132
+bake: frame 67 :: 132
+bake: frame 68 :: 132
+bake: frame 69 :: 132
+bake: frame 70 :: 132
+bake: frame 71 :: 132
+bake: frame 72 :: 132
+bake: frame 73 :: 132
+bake: frame 74 :: 132
+bake: frame 75 :: 132
+bake: frame 76 :: 132
+bake: frame 77 :: 132
+bake: frame 78 :: 132
+bake: frame 79 :: 132
+bake: frame 80 :: 132
+bake: frame 81 :: 132
+bake: frame 82 :: 132
+bake: frame 83 :: 132
+bake: frame 84 :: 132
+bake: frame 85 :: 132
+bake: frame 86 :: 132
+bake: frame 87 :: 132
+bake: frame 88 :: 132
+bake: frame 89 :: 132
+bake: frame 90 :: 132
+bake: frame 91 :: 132
+bake: frame 92 :: 132
+bake: frame 93 :: 132
+bake: frame 94 :: 132
+bake: frame 95 :: 132
+bake: frame 96 :: 132
+bake: frame 97 :: 132
+bake: frame 98 :: 132
+bake: frame 99 :: 132
+bake: frame 100 :: 132
+bake: frame 101 :: 132
+bake: frame 102 :: 132
+bake: frame 103 :: 132
+bake: frame 104 :: 132
+bake: frame 105 :: 132
+bake: frame 106 :: 132
+bake: frame 107 :: 132
+bake: frame 108 :: 132
+bake: frame 109 :: 132
+bake: frame 110 :: 132
+bake: frame 111 :: 132
+bake: frame 112 :: 132
+bake: frame 113 :: 132
+bake: frame 114 :: 132
+bake: frame 115 :: 132
+bake: frame 116 :: 132
+bake: frame 117 :: 132
+bake: frame 118 :: 132
+bake: frame 119 :: 132
+bake: frame 120 :: 132
+bake: frame 121 :: 132
+bake: frame 122 :: 132
+bake: frame 123 :: 132
+bake: frame 124 :: 132
+bake: frame 125 :: 132
+bake: frame 126 :: 132
+bake: frame 127 :: 132
+bake: frame 128 :: 132
+bake: frame 129 :: 132
+bake: frame 130 :: 132
+bake: frame 131 :: 132
+bake: frame 132 :: 132
+Fra:132 Mem:143.40M (Peak 199.48M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Solid maple cutting board | 34 x 26 x 2.1 cm
+Fra:132 Mem:143.41M (Peak 199.48M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fresh flour tortilla | baked final frame
+Fra:132 Mem:144.41M (Peak 199.48M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Dough crumb 03
+Fra:132 Mem:144.42M (Peak 199.48M) | Time:00:00.65 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Dough crumb 08
+Fra:132 Mem:150.62M (Peak 199.48M) | Time:00:00.66 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Dough crumb 17
+Fra:132 Mem:190.08M (Peak 200.48M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:132 Mem:138.07M (Peak 200.48M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:132 Mem:138.07M (Peak 200.48M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:132 Mem:138.07M (Peak 200.48M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:132 Mem:138.07M (Peak 200.48M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Procedurals
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Background
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Camera
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Meshes Flags
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Objects
+Fra:132 Mem:138.19M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:132 Mem:138.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems
+Fra:132 Mem:138.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:132 Mem:138.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Meshes
+Fra:132 Mem:138.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:132 Mem:138.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:0.05M, Peak:0.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH light 25/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH light 25/24 | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere.016 24/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere.016 24/24 | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Cube.002 4/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Cube.002 4/24 | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere 8/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere.007 15/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere.013 21/24 | Building BVH
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Icosphere.009 17/24 | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.74 | Mem:13.06M, Peak:13.06M | Scene, ViewLayer | Updating Geometry BVH Single continuous circular tortilla | 7056 quads.001 3/24 | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.76 | Mem:21.35M, Peak:64.28M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.76 | Mem:21.35M, Peak:64.28M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.76 | Mem:21.36M, Peak:64.28M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:132 Mem:151.20M (Peak 200.48M) | Time:00:01.76 | Mem:21.36M, Peak:64.28M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:21.36M, Peak:64.28M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Objects Flags
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Images
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Camera Volume
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.59M, Peak:64.28M | Scene, ViewLayer | Updating Lights
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.59M, Peak:64.28M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.59M, Peak:64.28M | Scene, ViewLayer | Updating Integrator
+Fra:132 Mem:163.35M (Peak 200.48M) | Time:00:01.76 | Mem:33.59M, Peak:64.28M | Scene, ViewLayer | Updating Film
+Fra:132 Mem:163.36M (Peak 200.48M) | Time:00:01.76 | Mem:33.51M, Peak:64.28M | Scene, ViewLayer | Updating Lookup Tables
+Fra:132 Mem:163.36M (Peak 200.48M) | Time:00:01.76 | Mem:33.60M, Peak:64.28M | Scene, ViewLayer | Updating Baking
+Fra:132 Mem:163.36M (Peak 200.48M) | Time:00:01.76 | Mem:33.60M, Peak:64.28M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:132 Mem:163.36M (Peak 200.48M) | Time:00:01.76 | Mem:33.60M, Peak:64.28M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:132 Mem:179.31M (Peak 200.48M) | Time:00:01.77 | Mem:1595.48M, Peak:1595.48M | Scene, ViewLayer | Sample 0/192
+Fra:132 Mem:329.60M (Peak 329.60M) | Time:00:01.79 | Remaining:00:03.34 | Mem:1745.77M, Peak:1745.77M | Scene, ViewLayer | Sample 1/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:02.56 | Remaining:00:01.10 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 80/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:02.73 | Remaining:00:00.95 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 96/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:02.89 | Remaining:00:00.80 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 112/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:03.06 | Remaining:00:00.64 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 128/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:03.23 | Remaining:00:00.48 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 144/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:03.39 | Remaining:00:00.32 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 160/192
+Fra:132 Mem:329.61M (Peak 329.61M) | Time:00:03.55 | Remaining:00:00.16 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 176/192
+Fra:132 Mem:392.89M (Peak 487.81M) | Time:00:18.56 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Sample 192/192
+Fra:132 Mem:392.89M (Peak 487.81M) | Time:00:18.56 | Mem:1745.78M, Peak:1745.78M | Scene, ViewLayer | Finished
+Saved: '/workspace/iterations/01/tortilla.png'
+Time: 00:19.23 (Saving: 00:00.56)
+
+[TORTILLA  1613.73s] Image saved: /workspace/iterations/01/tortilla.png
+[TORTILLA  1613.73s] COMPLETE | total runtime 1613.73s | hardware {'backend': 'OPTIX', 'devices': ['NVIDIA GeForce RTX 5090 (CUDA)', 'NVIDIA GeForce RTX 5090 (OPTIX)']}
+
+Blender quit
+
+# exit 0  1630s  files: ['iterations/01/run_summary.json', 'iterations/01/tortilla.png', 'iterations/01/tortilla.blend', 'iterations/01/simulation.json']

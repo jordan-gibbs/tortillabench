@@ -1,0 +1,180 @@
+# 20261004-163419 sandbox d8403412-37f1-4f1f-9cef-48551213481d gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only --stages 2 --output-dir bakes/bake03_noself --cloth use_self_collision=0
+
+[tortilla     0.0s] Blender 4.5.13 LTS | Python 3.11.15 | Linux x86_64 | output dir /workspace/bakes/bake03_noself
+[tortilla     0.0s] scene cleared (0 objects left)
+[tortilla     0.1s] tortilla mesh: 3367 verts, 6534 tris, 33 rings, edge 3.3 mm, diameter ~22 cm
+[tortilla     0.2s] cutting board 48 x 32 x 2.2 cm, rounded corners, bevelled edges, 398 faces (collider)
+[tortilla     0.2s] cloth simulation: 4 stages (fold 1, settle, fold 2, settle)
+[tortilla     0.2s]   fold 1: yaw +2.2 deg, offset 2.7 mm, 464 pinned rim verts, hinge height 4.0 mm
+[tortilla   241.8s]   [fold1] baked 90 frames in 241.4s
+[tortilla   241.9s]   [fold1] frozen frame 90: z min 1.98 mm, median 5.43 mm, max 29.73 mm, verts below 0.3 mm: 0
+[tortilla   356.2s]   [settle1] baked 50 frames in 114.2s
+[tortilla   356.3s]   [settle1] frozen frame 50: z min 1.96 mm, median 4.25 mm, max 28.50 mm, verts below 0.3 mm: 0
+[tortilla   356.4s] cloth done in 356.1s; layer check: {'stacked_verts': 2149, 'too_close': 648, 'min_gap': 0.00021379918325692415, 'gap_p05': 0.0010920590721070766, 'gap_p50': 0.002502709161490202}
+[tortilla   361.7s] tortilla finished: lowest surface point moved from -0.21 mm to 0.15 mm above the board; final thickness 1.5-1.9 mm
+[tortilla   363.3s] seamless backdrop built
+[tortilla   363.5s] steam volume added
+[tortilla   363.5s] scene dressed: board material, backdrop, bowl, two limes
+[tortilla   363.5s] procedural studio world (gradient, no HDRI)
+[tortilla   363.5s] light Key_Softbox: 4.59 W at 0.75 m, 0.70x0.50 m
+[tortilla   363.5s] light Fill_Bounce: 1.41 W at 1.00 m, 1.20x1.00 m
+[tortilla   363.5s] light Rim_Back: 2.85 W at 0.55 m, 0.28x0.22 m
+[tortilla   363.5s] light Backdrop_Glow: 3.18 W at 0.75 m, 0.90x0.60 m
+[tortilla   363.6s] camera: 85 mm f/2.8, at (0.035, -0.495, 0.08), pitch 5.8 deg down, focus on leading fold 44.0 cm away (1018 front verts)
+[tortilla   363.8s]   frame coverage tortilla_frame_bbox: x 0.21..0.91, y 0.17..0.55
+[tortilla   363.8s]   frame coverage Bowl_frame_bbox: x -0.04..0.36, y 0.42..0.70
+[tortilla   363.8s]   frame coverage Lime1_frame_bbox: x 0.80..1.07, y 0.38..0.71
+[tortilla   363.8s]   frame coverage Lime2_frame_bbox: x 0.97..1.21, y 0.44..0.73
+[tortilla   363.8s]   frame coverage CuttingBoard_frame_bbox: x -1.13..2.11, y -0.48..0.44
+[tortilla   363.9s] render device: OPTIX ['NVIDIA GeForce RTX 5090'] (cpu threads: 192)
+[tortilla   363.9s] Cycles 3840x2160, 1024 max samples, adaptive 0.006, OIDN, AgX (AgX - Medium High Contrast), seed 7
+Info: Saved copy as "tortilla_scene.blend"
+[tortilla   364.0s] saved /workspace/bakes/bake03_noself/tortilla_scene.blend
+[tortilla   364.0s] bake-only run: skipping render
+[tortilla   364.0s] TOTAL RUNTIME 364.0s on OPTIX ['NVIDIA GeForce RTX 5090']
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 90
+bake: frame 2 :: 90
+bake: frame 3 :: 90
+bake: frame 4 :: 90
+bake: frame 5 :: 90
+bake: frame 6 :: 90
+bake: frame 7 :: 90
+bake: frame 8 :: 90
+bake: frame 9 :: 90
+bake: frame 10 :: 90
+bake: frame 11 :: 90
+bake: frame 12 :: 90
+bake: frame 13 :: 90
+bake: frame 14 :: 90
+bake: frame 15 :: 90
+bake: frame 16 :: 90
+bake: frame 17 :: 90
+bake: frame 18 :: 90
+bake: frame 19 :: 90
+bake: frame 20 :: 90
+bake: frame 21 :: 90
+bake: frame 22 :: 90
+bake: frame 23 :: 90
+bake: frame 24 :: 90
+bake: frame 25 :: 90
+bake: frame 26 :: 90
+bake: frame 27 :: 90
+bake: frame 28 :: 90
+bake: frame 29 :: 90
+bake: frame 30 :: 90
+bake: frame 31 :: 90
+bake: frame 32 :: 90
+bake: frame 33 :: 90
+bake: frame 34 :: 90
+bake: frame 35 :: 90
+bake: frame 36 :: 90
+bake: frame 37 :: 90
+bake: frame 38 :: 90
+bake: frame 39 :: 90
+bake: frame 40 :: 90
+bake: frame 41 :: 90
+bake: frame 42 :: 90
+bake: frame 43 :: 90
+bake: frame 44 :: 90
+bake: frame 45 :: 90
+bake: frame 46 :: 90
+bake: frame 47 :: 90
+bake: frame 48 :: 90
+bake: frame 49 :: 90
+bake: frame 50 :: 90
+bake: frame 51 :: 90
+bake: frame 52 :: 90
+bake: frame 53 :: 90
+bake: frame 54 :: 90
+bake: frame 55 :: 90
+bake: frame 56 :: 90
+bake: frame 57 :: 90
+bake: frame 58 :: 90
+bake: frame 59 :: 90
+bake: frame 60 :: 90
+bake: frame 61 :: 90
+bake: frame 62 :: 90
+bake: frame 63 :: 90
+bake: frame 64 :: 90
+bake: frame 65 :: 90
+bake: frame 66 :: 90
+bake: frame 67 :: 90
+bake: frame 68 :: 90
+bake: frame 69 :: 90
+bake: frame 70 :: 90
+bake: frame 71 :: 90
+bake: frame 72 :: 90
+bake: frame 73 :: 90
+bake: frame 74 :: 90
+bake: frame 75 :: 90
+bake: frame 76 :: 90
+bake: frame 77 :: 90
+bake: frame 78 :: 90
+bake: frame 79 :: 90
+bake: frame 80 :: 90
+bake: frame 81 :: 90
+bake: frame 82 :: 90
+bake: frame 83 :: 90
+bake: frame 84 :: 90
+bake: frame 85 :: 90
+bake: frame 86 :: 90
+bake: frame 87 :: 90
+bake: frame 88 :: 90
+bake: frame 89 :: 90
+bake: frame 90 :: 90
+bake: frame 1 :: 50
+bake: frame 2 :: 50
+bake: frame 3 :: 50
+bake: frame 4 :: 50
+bake: frame 5 :: 50
+bake: frame 6 :: 50
+bake: frame 7 :: 50
+bake: frame 8 :: 50
+bake: frame 9 :: 50
+bake: frame 10 :: 50
+bake: frame 11 :: 50
+bake: frame 12 :: 50
+bake: frame 13 :: 50
+bake: frame 14 :: 50
+bake: frame 15 :: 50
+bake: frame 16 :: 50
+bake: frame 17 :: 50
+bake: frame 18 :: 50
+bake: frame 19 :: 50
+bake: frame 20 :: 50
+bake: frame 21 :: 50
+bake: frame 22 :: 50
+bake: frame 23 :: 50
+bake: frame 24 :: 50
+bake: frame 25 :: 50
+bake: frame 26 :: 50
+bake: frame 27 :: 50
+bake: frame 28 :: 50
+bake: frame 29 :: 50
+bake: frame 30 :: 50
+bake: frame 31 :: 50
+bake: frame 32 :: 50
+bake: frame 33 :: 50
+bake: frame 34 :: 50
+bake: frame 35 :: 50
+bake: frame 36 :: 50
+bake: frame 37 :: 50
+bake: frame 38 :: 50
+bake: frame 39 :: 50
+bake: frame 40 :: 50
+bake: frame 41 :: 50
+bake: frame 42 :: 50
+bake: frame 43 :: 50
+bake: frame 44 :: 50
+bake: frame 45 :: 50
+bake: frame 46 :: 50
+bake: frame 47 :: 50
+bake: frame 48 :: 50
+bake: frame 49 :: 50
+bake: frame 50 :: 50
+
+Blender quit
+
+# exit 0  383s  files: ['bakes/bake03_noself/tortilla_scene.blend', 'bakes/bake03_noself/sim_fold1_f40.obj', 'bakes/bake03_noself/sim_final_cloth.obj', 'bakes/bake03_noself/sim_stats.json', 'bakes/bake03_noself/sim_rest.obj', 'bakes/bake03_noself/sim_after_fold1.obj']

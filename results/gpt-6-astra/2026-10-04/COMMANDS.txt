@@ -1,0 +1,27 @@
+EXACT BENCHMARK COMMANDS
+
+Attempt 1
+& "C:\Users\Jordan\PycharmProjects\tortillabench\.venv\Scripts\python.exe" render.py build_tortilla.py -- --output iterations/01 --width 1920 --samples 192
+
+Attempt 2
+& "C:\Users\Jordan\PycharmProjects\tortillabench\.venv\Scripts\python.exe" render.py build_tortilla.py --cpu 16 -- --output iterations/02 --width 3840 --samples 384
+
+Attempt 3
+& "C:\Users\Jordan\PycharmProjects\tortillabench\.venv\Scripts\python.exe" render.py build_tortilla.py --cpu 16 -- --output iterations/03 --width 3840 --samples 384
+
+Final native Blender command executed inside the cloud sandbox:
+/opt/blender/blender --background --factory-startup --python 'build_tortilla.py' -- '--output' 'iterations/03' '--width' '3840' '--samples' '384'
+
+Standalone command on a clean machine with Blender on PATH:
+blender --background --factory-startup --python build_tortilla.py
+
+The standalone defaults reproduce the final 3840x2160 / 384-sample configuration
+and write to output/final relative to build_tortilla.py.
+
+The second run's local controller lost DNS access. recover_existing_run.py
+retrieved the same completed Blender job and removed its sandbox. It did not
+start another Blender process. The original cloud logs were not modified.
+
+This benchmark session executes exactly three Blender render pipelines.
+Inspection JPEGs are format-converted display copies of the PNGs, not additional
+renders. No bake-only Blender runs were performed.

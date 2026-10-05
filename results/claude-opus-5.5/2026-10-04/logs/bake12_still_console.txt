@@ -1,0 +1,356 @@
+render.py: cloud run 13 — spot RTX-5090 > RTX-4090, 8 vCPU, 16 GB, TTL 60 min (max $1.40)
+render.py: sandbox 3a07ff79-39eb-4811-a4a0-cfda12daefe7 up on RTX-5090 (6s)
+[tortilla     0.0s] Blender 4.5.13 LTS | Python 3.11.15 | Linux x86_64 | output dir /workspace/bakes/bake12_still
+[tortilla     0.0s] scene cleared (0 objects left)
+[tortilla     0.0s] tortilla mesh: 3367 verts, 6534 tris, 33 rings, edge 3.3 mm, diameter ~22 cm
+[tortilla     0.1s] cutting board 48 x 32 x 2.2 cm, rounded corners, bevelled edges, 398 faces (collider)
+[tortilla     0.1s] cloth simulation: 4 stages (fold 1, settle, fold 2, settle)
+[tortilla     0.1s]   fold 1: yaw +2.2 deg, offset 2.7 mm, hinge band 14.0 mm, 1495 pinned flap verts, axis height 5.0 mm
+[tortilla   312.6s]   [fold1] baked 90 frames in 312.5s
+[tortilla   312.6s]   [fold1] frozen frame 90: z min 2.01 mm, median 5.29 mm, max 9.05 mm, verts below 0.3 mm: 0
+[tortilla   690.2s]   [settle1] baked 60 frames in 377.4s
+[tortilla   690.3s]   [settle1] frozen frame 60: z min 1.95 mm, median 3.81 mm, max 8.95 mm, verts below 0.3 mm: 0
+[tortilla   690.3s]   fold 2: yaw -1.6 deg, offset -3.9 mm, hinge band 20.3 mm, 1631 pinned verts, axis height 8.0 mm
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 90
+bake: frame 2 :: 90
+bake: frame 3 :: 90
+bake: frame 4 :: 90
+bake: frame 5 :: 90
+bake: frame 6 :: 90
+bake: frame 7 :: 90
+bake: frame 8 :: 90
+bake: frame 9 :: 90
+bake: frame 10 :: 90
+bake: frame 11 :: 90
+bake: frame 12 :: 90
+bake: frame 13 :: 90
+bake: frame 14 :: 90
+bake: frame 15 :: 90
+bake: frame 16 :: 90
+bake: frame 17 :: 90
+bake: frame 18 :: 90
+bake: frame 19 :: 90
+bake: frame 20 :: 90
+bake: frame 21 :: 90
+bake: frame 22 :: 90
+bake: frame 23 :: 90
+bake: frame 24 :: 90
+bake: frame 25 :: 90
+bake: frame 26 :: 90
+bake: frame 27 :: 90
+bake: frame 28 :: 90
+bake: frame 29 :: 90
+bake: frame 30 :: 90
+bake: frame 31 :: 90
+bake: frame 32 :: 90
+bake: frame 33 :: 90
+bake: frame 34 :: 90
+bake: frame 35 :: 90
+bake: frame 36 :: 90
+bake: frame 37 :: 90
+bake: frame 38 :: 90
+bake: frame 39 :: 90
+bake: frame 40 :: 90
+bake: frame 41 :: 90
+bake: frame 42 :: 90
+bake: frame 43 :: 90
+bake: frame 44 :: 90
+bake: frame 45 :: 90
+bake: frame 46 :: 90
+bake: frame 47 :: 90
+bake: frame 48 :: 90
+bake: frame 49 :: 90
+bake: frame 50 :: 90
+bake: frame 51 :: 90
+bake: frame 52 :: 90
+bake: frame 53 :: 90
+bake: frame 54 :: 90
+bake: frame 55 :: 90
+bake: frame 56 :: 90
+bake: frame 57 :: 90
+bake: frame 58 :: 90
+bake: frame 59 :: 90
+bake: frame 60 :: 90
+bake: frame 61 :: 90
+bake: frame 62 :: 90
+bake: frame 63 :: 90
+bake: frame 64 :: 90
+bake: frame 65 :: 90
+bake: frame 66 :: 90
+bake: frame 67 :: 90
+bake: frame 68 :: 90
+bake: frame 69 :: 90
+bake: frame 70 :: 90
+bake: frame 71 :: 90
+bake: frame 72 :: 90
+bake: frame 73 :: 90
+bake: frame 74 :: 90
+bake: frame 75 :: 90
+bake: frame 76 :: 90
+bake: frame 77 :: 90
+bake: frame 78 :: 90
+bake: frame 79 :: 90
+bake: frame 80 :: 90
+bake: frame 81 :: 90
+bake: frame 82 :: 90
+bake: frame 83 :: 90
+bake: frame 84 :: 90
+bake: frame 85 :: 90
+bake: frame 86 :: 90
+bake: frame 87 :: 90
+bake: frame 88 :: 90
+bake: frame 89 :: 90
+bake: frame 90 :: 90
+bake: frame 1 :: 60
+bake: frame 2 :: 60
+bake: frame 3 :: 60
+bake: frame 4 :: 60
+bake: frame 5 :: 60
+bake: frame 6 :: 60
+bake: frame 7 :: 60
+bake: frame 8 :: 60
+bake: frame 9 :: 60
+bake: frame 10 :: 60
+bake: frame 11 :: 60
+bake: frame 12 :: 60
+bake: frame 13 :: 60
+bake: frame 14 :: 60
+bake: frame 15 :: 60
+bake: frame 16 :: 60
+bake: frame 17 :: 60
+bake: frame 18 :: 60
+bake: frame 19 :: 60
+bake: frame 20 :: 60
+bake: frame 21 :: 60
+bake: frame 22 :: 60
+bake: frame 23 :: 60
+bake: frame 24 :: 60
+bake: frame 25 :: 60
+bake: frame 26 :: 60
+bake: frame 27 :: 60
+bake: frame 28 :: 60
+bake: frame 29 :: 60
+bake: frame 30 :: 60
+bake: frame 31 :: 60
+bake: frame 32 :: 60
+bake: frame 33 :: 60
+bake: frame 34 :: 60
+bake: frame 35 :: 60
+bake: frame 36 :: 60
+bake: frame 37 :: 60
+bake: frame 38 :: 60
+bake: frame 39 :: 60
+bake: frame 40 :: 60
+bake: frame 41 :: 60
+bake: frame 42 :: 60
+bake: frame 43 :: 60
+bake: frame 44 :: 60
+bake: frame 45 :: 60
+bake: frame 46 :: 60
+bake: frame 47 :: 60
+bake: frame 48 :: 60
+bake: frame 49 :: 60
+bake: frame 50 :: 60
+bake: frame 51 :: 60
+bake: frame 52 :: 60
+bake: frame 53 :: 60
+bake: frame 54 :: 60
+bake: frame 55 :: 60
+bake: frame 56 :: 60
+bake: frame 57 :: 60
+bake: frame 58 :: 60
+bake: frame 59 :: 60
+bake: frame 60 :: 60
+bake: frame 1 :: 90
+bake: frame 2 :: 90
+bake: frame 3 :: 90
+bake: frame 4 :: 90
+bake: frame 5 :: 90
+bake: frame 6 :: 90
+bake: frame 7 :: 90
+bake: frame 8 :: 90
+bake: frame 9 :: 90
+bake: frame 10 :: 90
+bake: frame 11 :: 90
+bake: frame 12 :: 90
+bake: frame 13 :: 90
+bake: frame 14 :: 90
+bake: frame 15 :: 90
+bake: frame 16 :: 90
+bake: frame 17 :: 90
+bake: frame 18 :: 90
+bake: frame 19 :: 90
+bake: frame 20 :: 90
+bake: frame 21 :: 90
+bake: frame 22 :: 90
+bake: frame 23 :: 90
+bake: frame 24 :: 90
+bake: frame 25 :: 90
+bake: frame 26 :: 90
+bake: frame 27 :: 90
+bake: frame 28 :: 90
+bake: frame 29 :: 90
+bake: frame 30 :: 90
+bake: frame 31 :: 90
+bake: frame 32 :: 90
+bake: frame 33 :: 90
+bake: frame 34 :: 90
+bake: frame 35 :: 90
+bake: frame 36 :: 90
+bake: frame 37 :: 90
+bake: frame 38 :: 90
+bake: frame 39 :: 90
+bake: frame 40 :: 90
+bake: frame 41 :: 90
+bake: frame 42 :: 90
+bake: frame 43 :: 90
+bake:[tortilla  1141.9s]   [fold2] baked 90 frames in 451.4s
+[tortilla  1142.0s]   [fold2] frozen frame 90: z min 1.95 mm, median 3.80 mm, max 8.99 mm, verts below 0.3 mm: 0
+[tortilla  1561.6s]   [settle2] baked 60 frames in 419.4s
+[tortilla  1561.8s]   [settle2] frozen frame 60: z min 1.95 mm, median 3.78 mm, max 9.00 mm, verts below 0.3 mm: 0
+[tortilla  1561.8s] cloth done in 1561.7s; layer check: {'stacked_verts': 3113, 'too_close': 10, 'min_gap': 0.0018539422890171409, 'gap_p05': 0.00205216184258461, 'gap_p50': 0.0024859393015503883}
+[tortilla  1567.7s] tortilla finished: lowest surface point moved from 0.88 mm to 0.15 mm above the board; final thickness 1.5-1.9 mm
+[tortilla  1569.0s] seamless backdrop built
+[tortilla  1569.2s] steam volume added
+[tortilla  1569.2s] scene dressed: board material, backdrop, bowl, two limes
+[tortilla  1569.2s] procedural studio world (gradient, no HDRI)
+[tortilla  1569.2s] light Key_Softbox: 4.59 W at 0.75 m, 0.70x0.50 m
+[tortilla  1569.2s] light Fill_Bounce: 1.41 W at 1.00 m, 1.20x1.00 m
+[tortilla  1569.2s] light Rim_Back: 2.85 W at 0.55 m, 0.28x0.22 m
+[tortilla  1569.2s] light Backdrop_Glow: 3.18 W at 0.75 m, 0.90x0.60 m
+[tortilla  1569.3s] camera: 85 mm f/2.8, at (0.035, -0.495, 0.08), pitch 5.8 deg down, focus on leading fold 43.5 cm away (1030 front verts)
+[tortilla  1569.5s]   frame coverage tortilla_frame_bbox: x 0.21..0.90, y 0.15..0.45
+[tortilla  1569.5s]   frame coverage Bowl_frame_bbox: x -0.04..0.36, y 0.42..0.70
+[tortilla  1569.5s]   frame coverage Lime1_frame_bbox: x 0.80..1.07, y 0.38..0.71
+[tortilla  1569.5s]   frame coverage Lime2_frame_bbox: x 0.97..1.21, y 0.44..0.73
+[tortilla  1569.5s]   frame coverage CuttingBoard_frame_bbox: x -1.13..2.11, y -0.48..0.44
+[tortilla  1569.6s] render device: OPTIX ['NVIDIA GeForce RTX 5090'] (cpu threads: 192)
+[tortilla  1569.6s] Cycles 3840x2160, 1024 max samples, adaptive 0.006, OIDN, AgX (AgX - Medium High Contrast), seed 7
+Info: Saved copy as "tortilla_scene.blend"
+[tortilla  1569.6s] saved /workspace/bakes/bake12_still/tortilla_scene.blend
+[tortilla  1569.6s] bake-only run: skipping render
+[tortilla  1569.6s] TOTAL RUNTIME 1569.6s on OPTIX ['NVIDIA GeForce RTX 5090']
+ frame 44 :: 90
+bake: frame 45 :: 90
+bake: frame 46 :: 90
+bake: frame 47 :: 90
+bake: frame 48 :: 90
+bake: frame 49 :: 90
+bake: frame 50 :: 90
+bake: frame 51 :: 90
+bake: frame 52 :: 90
+bake: frame 53 :: 90
+bake: frame 54 :: 90
+bake: frame 55 :: 90
+bake: frame 56 :: 90
+bake: frame 57 :: 90
+bake: frame 58 :: 90
+bake: frame 59 :: 90
+bake: frame 60 :: 90
+bake: frame 61 :: 90
+bake: frame 62 :: 90
+bake: frame 63 :: 90
+bake: frame 64 :: 90
+bake: frame 65 :: 90
+bake: frame 66 :: 90
+bake: frame 67 :: 90
+bake: frame 68 :: 90
+bake: frame 69 :: 90
+bake: frame 70 :: 90
+bake: frame 71 :: 90
+bake: frame 72 :: 90
+bake: frame 73 :: 90
+bake: frame 74 :: 90
+bake: frame 75 :: 90
+bake: frame 76 :: 90
+bake: frame 77 :: 90
+bake: frame 78 :: 90
+bake: frame 79 :: 90
+bake: frame 80 :: 90
+bake: frame 81 :: 90
+bake: frame 82 :: 90
+bake: frame 83 :: 90
+bake: frame 84 :: 90
+bake: frame 85 :: 90
+bake: frame 86 :: 90
+bake: frame 87 :: 90
+bake: frame 88 :: 90
+bake: frame 89 :: 90
+bake: frame 90 :: 90
+bake: frame 1 :: 60
+bake: frame 2 :: 60
+bake: frame 3 :: 60
+bake: frame 4 :: 60
+bake: frame 5 :: 60
+bake: frame 6 :: 60
+bake: frame 7 :: 60
+bake: frame 8 :: 60
+bake: frame 9 :: 60
+bake: frame 10 :: 60
+bake: frame 11 :: 60
+bake: frame 12 :: 60
+bake: frame 13 :: 60
+bake: frame 14 :: 60
+bake: frame 15 :: 60
+bake: frame 16 :: 60
+bake: frame 17 :: 60
+bake: frame 18 :: 60
+bake: frame 19 :: 60
+bake: frame 20 :: 60
+bake: frame 21 :: 60
+bake: frame 22 :: 60
+bake: frame 23 :: 60
+bake: frame 24 :: 60
+bake: frame 25 :: 60
+bake: frame 26 :: 60
+bake: frame 27 :: 60
+bake: frame 28 :: 60
+bake: frame 29 :: 60
+bake: frame 30 :: 60
+bake: frame 31 :: 60
+bake: frame 32 :: 60
+bake: frame 33 :: 60
+bake: frame 34 :: 60
+bake: frame 35 :: 60
+bake: frame 36 :: 60
+bake: frame 37 :: 60
+bake: frame 38 :: 60
+bake: frame 39 :: 60
+bake: frame 40 :: 60
+bake: frame 41 :: 60
+bake: frame 42 :: 60
+bake: frame 43 :: 60
+bake: frame 44 :: 60
+bake: frame 45 :: 60
+bake: frame 46 :: 60
+bake: frame 47 :: 60
+bake: frame 48 :: 60
+bake: frame 49 :: 60
+bake: frame 50 :: 60
+bake: frame 51 :: 60
+bake: frame 52 :: 60
+bake: frame 53 :: 60
+bake: frame 54 :: 60
+bake: frame 55 :: 60
+bake: frame 56 :: 60
+bake: frame 57 :: 60
+bake: frame 58 :: 60
+bake: frame 59 :: 60
+bake: frame 60 :: 60
+
+Blender quit
+render.py: downloaded bakes/bake12_still/tortilla_scene.blend (0.5 MB)
+render.py: downloaded bakes/bake12_still/sim_fold1_f40.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_final_cloth.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_stats.json (0.0 MB)
+render.py: downloaded bakes/bake12_still/sim_fold2_f55.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_fold2_f90.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_settle2_f25.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_fold2_f40.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_fold2_f70.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_settle2_f10.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_rest.obj (0.2 MB)
+render.py: downloaded bakes/bake12_still/sim_after_fold1.obj (0.2 MB)
+render.py: sandbox 3a07ff79-39eb-4811-a4a0-cfda12daefe7 destroyed (verified)
+render.py: done — exit 0, 1597s, 12 file(s), log cloud_logs/013_20261004-174743.log

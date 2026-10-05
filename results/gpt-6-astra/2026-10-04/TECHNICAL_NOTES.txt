@@ -1,0 +1,49 @@
+PROCEDURAL-PHOTOREAL-01 — TECHNICAL NOTES
+
+Modeling and scale
+The script creates one connected 22.4 cm circular dough sheet from a quad grid
+mapped to a disc. Trigonometric edge variation avoids a perfect cut-out outline.
+The render surface retains the baked cloth positions, then adds subdivision,
+fine procedural blister relief and approximately 1.8–2.3 mm of uneven thickness.
+Normal-based solidification avoids the long miter spikes found in the first
+iteration. The cut rim has its own pale 3D crumb shader so collapsed rim UVs do
+not produce streaked bump normals.
+The cutting board is a beveled solid block, 34 x 26 x 2.1 cm.
+
+Physics
+A Cloth modifier folds the original disc twice. Sequential animated shape-key
+pin targets describe finite-radius cylindrical hinges. Distributed hard grips,
+soft interior pin weights and less constrained boundary vertices guide the
+motion while the cloth solver handles drape, gravity and collisions. This is a
+guided cloth simulation, not an unconstrained gravity-only folding experiment.
+The undeformed rest mesh stays fixed. Board collision and self-collision are on.
+The simulation uses 10x spatial scale for thin-sheet numerical stability, then
+converts the baked snapshot and board to metres for the macro camera. A small
+rigid vertical contact correction after adding thickness seats the lowest
+surface at the board. The value is disclosed in simulation.json.
+The scene saves both the source animation/Cloth modifier and an evaluated final
+mesh so the photograph does not depend on cache re-evaluation when reopened.
+
+Shading
+All materials are built from procedural shader nodes. Original disc UVs keep
+cooking marks attached to the dough through both folds. Voronoi cells with noisy
+boundaries and varying radii create toast marks, broad noise varies dough colour,
+and high-frequency noise supplies flour grains, roughness and micro-normal
+relief. Subsurface scattering gives a restrained warm translucency. The board
+uses strongly anisotropic noise for longitudinal wood grain and a separate
+crossing pattern of sparse shallow knife scratches with a satin oil finish.
+No external models, textures, HDRIs, add-ons or asset libraries are used.
+
+Photography and rendering
+A low 76 mm macro camera at f/5.6 focuses on the leading layered edge. Sparse
+fine toasted freckles and flour mottling complement the larger griddle spots.
+A nine-bladed aperture
+softens the rear of the board and the quiet charcoal studio background. A large
+warm area key, restrained cool fill and soft rear strip reveal fold volumes.
+World illumination is a constant procedural shader. Cycles uses a fixed seed,
+GPU compute with CPU fallback, denoising, AgX and a 16-bit PNG output.
+
+Reproduction
+The definitive run command, iteration critique, output paths, runtime and
+hardware are recorded with the completed results in iteration_log.json and
+REPORT.txt. build_tortilla.py also embeds a copy of itself in the saved scene.

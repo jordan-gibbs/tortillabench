@@ -1,0 +1,600 @@
+[
+  {
+    "n": 2,
+    "started": "20261005-001033",
+    "sandbox": "bc7b8252-c609-461b-b6b4-279d48af80e8",
+    "gpu": "RTX-5090",
+    "seconds": 599,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/002_20261005-001033.log",
+    "max_cost_usd": 0.233
+  },
+  {
+    "n": 3,
+    "started": "20261005-002102",
+    "sandbox": "36413f27-5e2a-4828-b4a9-b7a9df7a40de",
+    "gpu": "RTX-5090",
+    "seconds": 336,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/003_20261005-002102.log",
+    "max_cost_usd": 0.131
+  },
+  {
+    "n": 4,
+    "started": "20261005-002734",
+    "sandbox": "a204c785-c98b-4a7a-8134-9c89c402bb77",
+    "gpu": "RTX-5090",
+    "seconds": 148,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/004_20261005-002734.log",
+    "max_cost_usd": 0.058
+  },
+  {
+    "n": 5,
+    "started": "20261005-003029",
+    "sandbox": "67021df4-60d3-440f-86fe-c9233708acc9",
+    "gpu": "RTX-5090",
+    "seconds": 141,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/005_20261005-003029.log",
+    "max_cost_usd": 0.055
+  },
+  {
+    "n": 6,
+    "started": "20261005-003357",
+    "sandbox": "81d0a56c-153c-470b-8e5b-ba38b924858f",
+    "gpu": "RTX-5090",
+    "seconds": 196,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/006_20261005-003357.log",
+    "max_cost_usd": 0.076
+  },
+  {
+    "n": 7,
+    "started": "20261005-003752",
+    "sandbox": "db2ceb9f-2dd6-48b5-b138-e53ad6c46673",
+    "gpu": "RTX-5090",
+    "seconds": 143,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/007_20261005-003752.log",
+    "max_cost_usd": 0.056
+  },
+  {
+    "n": 8,
+    "started": "20261005-004056",
+    "sandbox": "225a9c11-1590-4e78-9680-0c10b768d9e7",
+    "gpu": "RTX-5090",
+    "seconds": 75,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only",
+      "--no-selfcol"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/008_20261005-004056.log",
+    "max_cost_usd": 0.029
+  },
+  {
+    "n": 9,
+    "started": "20261005-004221",
+    "sandbox": "75b720e1-5b4c-43de-8f35-7e24add23d90",
+    "gpu": "RTX-5090",
+    "seconds": 128,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only",
+      "--no-pin"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/009_20261005-004221.log",
+    "max_cost_usd": 0.05
+  },
+  {
+    "n": 10,
+    "started": "20261005-004454",
+    "sandbox": "b6e28880-efc5-4311-abf3-6029b3488cc5",
+    "gpu": "RTX-5090",
+    "seconds": 129,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only",
+      "--no-pin"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/010_20261005-004454.log",
+    "max_cost_usd": 0.05
+  },
+  {
+    "n": 11,
+    "started": "20261005-004759",
+    "sandbox": "47f9ada9-7b27-40ab-937e-32fbeddaabe2",
+    "gpu": "RTX-5090",
+    "seconds": 184,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/011_20261005-004759.log",
+    "max_cost_usd": 0.072
+  },
+  {
+    "n": 12,
+    "started": "20261005-005117",
+    "sandbox": "2aa4c697-dc31-45cd-8bd6-4aa061be92c2",
+    "gpu": "RTX-5090",
+    "seconds": 149,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only",
+      "--no-board-col"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/012_20261005-005117.log",
+    "max_cost_usd": 0.058
+  },
+  {
+    "n": 13,
+    "started": "20261005-005415",
+    "sandbox": "82b56911-bff8-4b82-8c4e-e35cd925ba54",
+    "gpu": "RTX-5090",
+    "seconds": 174,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/013_20261005-005415.log",
+    "max_cost_usd": 0.068
+  },
+  {
+    "n": 14,
+    "started": "20261005-005740",
+    "sandbox": "50a8f879-534b-4960-a141-c3c7ef7a6ecd",
+    "gpu": "RTX-5090",
+    "seconds": 185,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/014_20261005-005740.log",
+    "max_cost_usd": 0.072
+  },
+  {
+    "n": 15,
+    "started": "20261005-010132",
+    "sandbox": "821cf9f0-73d7-429d-b6c5-8b8c0ff72045",
+    "gpu": "RTX-5090",
+    "seconds": 266,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/015_20261005-010132.log",
+    "max_cost_usd": 0.104
+  },
+  {
+    "n": 16,
+    "started": "20261005-010702",
+    "sandbox": "2e10ba77-a899-4c96-9cd1-b73d51cfd79b",
+    "gpu": "RTX-5090",
+    "seconds": 298,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/016_20261005-010702.log",
+    "max_cost_usd": 0.116
+  },
+  {
+    "n": 17,
+    "started": "20261005-011258",
+    "sandbox": "c7ba7d44-9812-43f8-9839-2b34120f6e06",
+    "gpu": "RTX-5090",
+    "seconds": 391,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/017_20261005-011258.log",
+    "max_cost_usd": 0.152
+  },
+  {
+    "n": 18,
+    "started": "20261005-011949",
+    "sandbox": "e2b90c99-eb00-426e-992f-1474425b001a",
+    "gpu": "RTX-5090",
+    "seconds": 303,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/018_20261005-011949.log",
+    "max_cost_usd": 0.118
+  },
+  {
+    "n": 19,
+    "started": "20261005-012507",
+    "sandbox": "34142b63-3197-4cf0-82c0-c2f81a38c174",
+    "gpu": "RTX-5090",
+    "seconds": 330,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/019_20261005-012507.log",
+    "max_cost_usd": 0.129
+  },
+  {
+    "n": 20,
+    "started": "20261005-013243",
+    "sandbox": "c0b0cad6-51a7-4554-aca7-63d133e4bbb5",
+    "gpu": "RTX-5090",
+    "seconds": 204,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/020_20261005-013243.log",
+    "max_cost_usd": 0.079
+  },
+  {
+    "n": 21,
+    "started": "20261005-013625",
+    "sandbox": "6bf58895-0d60-4841-9ea9-9a340dbd3472",
+    "gpu": "RTX-5090",
+    "seconds": 210,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/021_20261005-013625.log",
+    "max_cost_usd": 0.082
+  },
+  {
+    "n": 22,
+    "started": "20261005-014055",
+    "sandbox": "4ba16244-debf-4936-bc22-907343eb375e",
+    "gpu": "RTX-5090",
+    "seconds": 214,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/022_20261005-014055.log",
+    "max_cost_usd": 0.083
+  },
+  {
+    "n": 23,
+    "started": "20261005-014509",
+    "sandbox": "89dbbba0-8321-4817-91e8-ec5618a53751",
+    "gpu": "RTX-5090",
+    "seconds": 229,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/023_20261005-014509.log",
+    "max_cost_usd": 0.089
+  },
+  {
+    "n": 24,
+    "started": "20261005-014936",
+    "sandbox": "8502862f-ee39-4b0c-a1bc-2056b1f3f308",
+    "gpu": "RTX-5090",
+    "seconds": 121,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/024_20261005-014936.log",
+    "max_cost_usd": 0.047
+  },
+  {
+    "n": 25,
+    "started": "20261005-015153",
+    "sandbox": "7e5b8809-b03d-4b3a-ad32-36fe6f2f0606",
+    "gpu": "RTX-5090",
+    "seconds": 121,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/025_20261005-015153.log",
+    "max_cost_usd": 0.047
+  },
+  {
+    "n": 26,
+    "started": "20261005-015416",
+    "sandbox": "b79e5924-9f04-4390-8135-6e4a458cdb8a",
+    "gpu": "RTX-5090",
+    "seconds": 130,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/026_20261005-015416.log",
+    "max_cost_usd": 0.051
+  },
+  {
+    "n": 27,
+    "started": "20261005-015645",
+    "sandbox": "8433df9f-c46d-4e8a-9f2c-9e09b2af2421",
+    "gpu": "RTX-5090",
+    "seconds": 127,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/027_20261005-015645.log",
+    "max_cost_usd": 0.049
+  },
+  {
+    "n": 28,
+    "started": "20261005-015908",
+    "sandbox": "5b67d00f-5ad1-4ff0-b191-e98ef3bc622c",
+    "gpu": "RTX-5090",
+    "seconds": 29,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/028_20261005-015908.log",
+    "max_cost_usd": 0.011
+  },
+  {
+    "n": 29,
+    "started": "20261005-015948",
+    "sandbox": "3d56eec8-e282-47a3-9c9b-3602f18c08c9",
+    "gpu": "RTX-5090",
+    "seconds": 128,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_final.png",
+      "output/tortilla_baked.blend",
+      "output/tortilla_baked.blend1"
+    ],
+    "log": "cloud_logs/029_20261005-015948.log",
+    "max_cost_usd": 0.05
+  },
+  {
+    "n": 30,
+    "started": "20261005-020224",
+    "sandbox": "37452812-dabb-461a-9bdf-379960e52adc",
+    "gpu": "RTX-5090",
+    "seconds": 130,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_final.png",
+      "output/tortilla_baked.blend",
+      "output/tortilla_baked.blend1"
+    ],
+    "log": "cloud_logs/030_20261005-020224.log",
+    "max_cost_usd": 0.051
+  },
+  {
+    "n": 31,
+    "started": "20261005-020505",
+    "sandbox": "56d5922a-9ac4-4426-8e08-e19fc8a1268d",
+    "gpu": "RTX-5090",
+    "seconds": 34,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/031_20261005-020505.log",
+    "max_cost_usd": 0.013
+  },
+  {
+    "n": 32,
+    "started": "20261005-020616",
+    "sandbox": "c302f192-f1bd-466a-b62a-c6122bcca9f7",
+    "gpu": "RTX-5090",
+    "seconds": 131,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_final.png",
+      "output/tortilla_baked.blend",
+      "output/tortilla_baked.blend1"
+    ],
+    "log": "cloud_logs/032_20261005-020616.log",
+    "max_cost_usd": 0.051
+  },
+  {
+    "n": 33,
+    "started": "20261005-020948",
+    "sandbox": "869705ad-e998-495a-b67c-415b81a0b236",
+    "gpu": "RTX-5090",
+    "seconds": 27,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/033_20261005-020948.log",
+    "max_cost_usd": 0.011
+  },
+  {
+    "n": 34,
+    "started": "20261005-021130",
+    "sandbox": "cae6ad9e-c83c-4fa9-aa95-e61feecf4872",
+    "gpu": "RTX-5090",
+    "seconds": 27,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--bake-only"
+    ],
+    "files": [
+      "output/run_info.txt",
+      "output/tortilla_baked.blend"
+    ],
+    "log": "cloud_logs/034_20261005-021130.log",
+    "max_cost_usd": 0.011
+  }
+]

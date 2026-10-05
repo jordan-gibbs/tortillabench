@@ -1,0 +1,16 @@
+{
+  "sandbox": "5115d5e6-729d-48e3-8328-c7f95b31aae6",
+  "command_id": "8f59e930-1534-4b34-8b1d-1cf55071e63e",
+  "original_command": "bash -c 'cd /workspace && touch /tmp/.t0 && export PYTHONUNBUFFERED=1 && /opt/blender/blender --background --factory-startup --python '\\''build_tortilla.py'\\'' -- '\\''--output'\\'' '\\''iterations/02'\\'' '\\''--width'\\'' '\\''3840'\\'' '\\''--samples'\\'' '\\''384'\\'' 2>&1 | tee /tmp/cloud.log; exit ${PIPESTATUS[0]}'",
+  "exit_code": 0,
+  "recovered_utc": "2026-10-04T22:31:21.455069+00:00",
+  "new_blender_executions": 0,
+  "full_stdout": "recovery_logs/attempt_02_full_stdout.log",
+  "files": [
+    "iterations/02/run_summary.json",
+    "iterations/02/simulation.json",
+    "iterations/02/tortilla.png",
+    "iterations/02/tortilla.blend"
+  ],
+  "sandbox_destroyed_verified": true
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "n": 1,
+    "started": "20261004-154955",
+    "sandbox": "7ae0ec2a-94ca-4388-9d88-c4c884a11121",
+    "gpu": "RTX-5090",
+    "seconds": 1635,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--output",
+      "iterations/01",
+      "--width",
+      "1920",
+      "--samples",
+      "192"
+    ],
+    "files": [
+      "iterations/01/run_summary.json",
+      "iterations/01/tortilla.png",
+      "iterations/01/tortilla.blend",
+      "iterations/01/simulation.json"
+    ],
+    "log": "cloud_logs/001_20261004-154955.log",
+    "max_cost_usd": 0.637
+  },
+  {
+    "n": 3,
+    "started": "20261004-163519",
+    "sandbox": "621d37e5-29a9-4517-8f1f-95d4cbc85071",
+    "gpu": "RTX-5090",
+    "seconds": 710,
+    "exit_code": 0,
+    "evicted": false,
+    "args": [
+      "--output",
+      "iterations/03",
+      "--width",
+      "3840",
+      "--samples",
+      "384"
+    ],
+    "files": [
+      "iterations/03/run_summary.json",
+      "iterations/03/tortilla.png",
+      "iterations/03/tortilla.blend",
+      "iterations/03/simulation.json"
+    ],
+    "log": "cloud_logs/003_20261004-163519.log",
+    "max_cost_usd": 0.356
+  }
+]

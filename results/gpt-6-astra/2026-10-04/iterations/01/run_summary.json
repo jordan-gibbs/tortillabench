@@ -1,0 +1,20 @@
+{
+  "blender": "4.5.13 LTS",
+  "hardware": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA GeForce RTX 5090 (CUDA)",
+      "NVIDIA GeForce RTX 5090 (OPTIX)"
+    ]
+  },
+  "seed": 731904,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "samples": 192,
+  "bake_only": false,
+  "total_seconds": 1613.7270369771868,
+  "image": "/workspace/iterations/01/tortilla.png",
+  "blend": "/workspace/iterations/01/tortilla.blend"
+}

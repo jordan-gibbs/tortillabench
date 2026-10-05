@@ -1,0 +1,37 @@
+Recovering existing command 8f59e930-1534-4b34-8b1d-1cf55071e63e; no new Blender execution
+Original Blender exit code: 0
+ng:00:00.24 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 128/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.27 | Remaining:00:00.22 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 144/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.28 | Remaining:00:00.21 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 160/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.29 | Remaining:00:00.19 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 176/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.30 | Remaining:00:00.18 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 192/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.31 | Remaining:00:00.16 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 208/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.32 | Remaining:00:00.15 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 224/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.32 | Remaining:00:00.13 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 240/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.33 | Remaining:00:00.12 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 256/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.34 | Remaining:00:00.10 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 272/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.34 | Remaining:00:00.09 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 288/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.35 | Remaining:00:00.07 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 304/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.36 | Remaining:00:00.06 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 320/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.36 | Remaining:00:00.04 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 336/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.37 | Remaining:00:00.03 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 352/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.37 | Remaining:00:00.01 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 368/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.41 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 384/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.41 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Rendered 3/4 Tiles, Sample 0/384
+Fra:132 Mem:194.40M (Peak 788.48M) | Time:00:16.41 | Mem:1610.69M, Peak:1900.77M | Scene, ViewLayer | Finished
+Fra:132 Mem:125.76M (Peak 788.48M) | Time:00:16.42 | Mem:1570.30M, Peak:1900.77M | Scene | Reading full buffer from disk
+Fra:132 Mem:726.94M (Peak 788.48M) | Time:00:16.73 | Mem:1570.30M, Peak:1900.77M | Scene | ViewLayer | Denoising
+Fra:132 Mem:726.94M (Peak 916.78M) | Time:00:43.97 | Mem:2171.47M, Peak:2171.47M | Scene | ViewLayer | Finishing
+Saved: '/workspace/iterations/02/tortilla.png'
+Time: 00:46.18 (Saving: 00:01.61)
+
+[TORTILLA   558.96s] Image saved: /workspace/iterations/02/tortilla.png
+[TORTILLA   558.96s] COMPLETE | total runtime 558.96s | hardware {'backend': 'OPTIX', 'devices': ['NVIDIA GeForce RTX 5090 (OPTIX)']}
+
+Blender quit
+
+Recovered iterations/02/run_summary.json: 381 bytes
+Recovered iterations/02/simulation.json: 567 bytes
+Recovered iterations/02/tortilla.png: 29730560 bytes
+Recovered iterations/02/tortilla.blend: 39314899 bytes
+Existing sandbox destroyed and verified: True

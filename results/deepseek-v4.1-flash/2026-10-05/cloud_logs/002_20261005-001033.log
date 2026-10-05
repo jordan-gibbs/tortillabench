@@ -1,0 +1,287 @@
+# 20261005-001033 sandbox bc7b8252-c609-461b-b6b4-279d48af80e8 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only
+
+[    0.0s] === build_tortilla.py starting ===
+[    0.0s] argv: /opt/blender/blender --background --factory-startup --python build_tortilla.py -- --bake-only
+[    0.1s] Scene reset to empty factory state.
+[    0.1s] Host: Linux-6.8.0-137-generic-x86_64-with-glibc2.36 | x86_64 | Blender 4.5.13 LTS
+[    0.1s] Cutting board built (500 x 360 x 30 mm, beveled).
+[    0.1s] Tortilla mesh built: 577 verts, 576 faces.
+[    0.1s] Fold rig built (cloth + 2 animated paddle colliders). Frames 1-132.
+[    0.1s] Wood material built (procedural grain + scratches + satin coat).
+[    0.1s] Tortilla material built (procedural, node-based).
+[    0.1s] Lighting built: soft key + fill + rim + top (all procedural area lights).
+[    0.1s] World built: procedural vertical gradient (no HDRI).
+[    0.1s] Camera built: 85 mm, f/2.8, DoF focused on leading folded edge.
+[    0.1s] Steam volume material built (subtle).
+[    0.1s] Subtle volumetric steam domain added.
+[    0.3s] Cycles device: OPTIX ['NVIDIA GeForce RTX 5090']
+[    0.3s] Render: Cycles 3840x2160, 512 samples, AgX, 16-bit PNG.
+[    0.3s] Baking cloth simulation (132 frames, quality 6)...
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+bake: frame 1 :: 250
+bake: frame 2 :: 250
+bake: frame 3 :: 250
+bake: frame 4 :: 250
+bake: frame 5 :: 250
+bake: frame 6 :: 250
+bake: frame 7 :: 250
+bake: frame 8 :: 250
+bake: frame 9 :: 250
+bake: frame 10 :: 250
+bake: frame 11 :: 250
+bake: frame 12 :: 250
+bake: frame 13 :: 250
+bake: frame 14 :: 250
+bake: frame 15 :: 250
+bake: frame 16 :: 250
+bake: frame 17 :: 250
+bake: frame 18 :: 250
+bake: frame 19 :: 250
+bake: frame 20 :: 250
+bake: frame 21 :: 250
+bake: frame 22 :: 250
+bake: frame 23 :: 250
+bake: frame 24 :: 250
+bake: frame 25 :: 250
+bake: frame 26 :: 250
+bake: frame 27 :: 250
+bake: frame 28 :: 250
+bake: frame 29 :: 250
+bake: frame 30 :: 250
+bake: frame 31 :: 250
+bake: frame 32 :: 250
+bake: frame 33 :: 250
+bake: frame 34 :: 250
+bake: frame 35 :: 250
+bake: frame 36 :: 250
+bake: frame 37 :: 250
+bake: frame 38 :: 250
+bake: frame 39 :: 250
+bake: frame 40 :: 250
+bake: frame 41 :: 250
+bake: frame 42 :: 250
+bake: frame 43 :: 250
+bake: frame 44 :: 250
+bake: frame 45 :: 250
+bake: frame 46 :: 250
+bake: frame 47 :: 250
+bake: frame 48 :: 250
+bake: frame 49 :: 250
+bake: frame 50 :: 250
+bake: frame 51 :: 250
+bake: frame 52 :: 250
+bake: frame 53 :: 250
+bake: frame 54 :: 250
+bake: frame 55 :: 250
+bake: frame 56 :: 250
+bake: frame 57 :: 250
+bake: frame 58 :: 250
+bake: frame 59 :: 250
+bake: frame 60 :: 250
+bake: frame 61 :: 250
+bake: frame 62 :: 250
+bake: frame 63 :: 250
+bake: frame 64 :: 250
+bake: frame 65 :: 250
+bake: frame 66 :: 250
+bake: frame 67 :: 250
+bake: frame 68 :: 250
+bake: frame 69 :: 250
+bake: frame 70 :: 250
+bake: frame 71 :: 250
+bake: frame 72 :: 250
+bake: frame 73 :: 250
+bake: frame 74 :: 250
+bake: frame 75 :: 250
+bake: frame 76 :: 250
+bake: frame 77 :: 250
+bake: frame 78 :: 250
+bake: frame 79 :: 250
+bake: frame 80 :: 250
+bake: frame 81 :: 250
+bake: frame 82 :: 250
+bake: frame 83 :: 250
+bake: frame 84 :: 250
+bake: frame 85 :: 250
+bake: frame 86 :: 250
+bake: frame 87 :: 250
+bake: frame 88 :: 250
+bake: frame 89 :: 250
+bake: frame 90 :: 250
+bake: frame 91 :: 250
+bake: frame 92 :: 250
+bake: frame 93 :: 250
+bake: frame 94 :: 250
+bake: frame 95 :: 250
+bake: frame 96 :: 250
+bake: frame 97 :: 250
+bake: frame 98 :: 250
+bake: frame 99 :: 250
+bake: frame 100 :: 250
+bake: frame 101 :: 250
+bake: frame 102 :: 250
+bake: frame 103 :: 250
+bake: frame 104 :: 250
+bake: frame 105 :: 250
+bake: frame 106 :: 250
+bake: frame 107 :: 250
+bake: frame 108 :: 250
+bake: frame 109 :: 250
+bake: frame 110 :: 250
+bake: frame 111 :: 250
+bake: frame 112 :: 250
+bake: frame 113 :: 250
+bake: frame 114 :: 250
+bake: frame 115 :: 250
+bake: frame 116 :: 250
+bake: frame 117 :: 250
+bake: frame 118 :: 250
+bake: frame 119 :: 250
+bake: frame 120 :: 250
+bake: frame 121 :: 250
+bake: frame 122 :: 250
+bake: frame 123 :: 250
+bake: frame 124 :: 250
+bake: frame 125 :: 250
+bake: frame 126 :: 250
+bake: frame 127 :: 250
+bake: frame 128 :: 250
+bake: frame 129 :: 250
+bake: frame 130 :: 250
+bake: frame 131 :: 250
+bake: frame 132 :: 250
+bake: frame 133 :: 250
+bake: frame 134 :: 250
+bake: frame 135 :: 250
+bake: frame 136 :: 250
+bake: frame 137 :: 250
+bake: frame 138 :: 250
+bake: frame 139 :: 250
+bake: frame 140 :: 250
+bake: frame 141 :: 250
+bake: frame 142 :: 250
+bake: frame 143 :: 250
+bake: frame 144 :: 250
+bake: frame 145 :: 250
+bake: frame 146 :: 250
+bake: frame 147 :: 250
+bake: frame 148 :: 250
+bake: frame 149 :: 250
+bake: frame 150 :: 250
+bake: frame 151 :: 250
+bake: frame 152 :: 250
+bake: frame 153 :: 250
+bake: frame 154 :: 250
+bake: frame 155 :: 250
+bake: frame 156 :: 250
+bake: frame 157 :: 250
+bake: frame 158 :: 250
+bake: frame 159 :: 250
+bake: frame 160 :: 250
+bake: frame 161 :: 250
+bake: frame 162 :: 250
+bake: frame 163 :: 250
+bake: frame 164 :: 250
+bake: frame 165 :: 250
+bake: frame 166 :: 250
+bake: frame 167 :: 250
+bake: frame 168 :: 250
+bake: frame 169 :: 250
+bake: frame 170 :: 250
+bake: frame 171 :: 250
+bake: frame 172 :: 250
+bake: frame 173 :: 250
+bake: frame 174 :: 250
+bake: frame 175 :: 250
+bake: frame 176 :: 250
+bake: frame 177 :: 250
+bake: frame 178 :: 250
+bake: frame 179 :: 250
+bake: frame 180 :: 250[  582.5s] Cloth bake finished in 582.2s.
+[  582.6s] ---- folded-tortilla diagnostics (final frame) ----
+[  582.8s]   verts                        18818
+[  582.8s]   x                            (-0.22107286751270294, 0.010354139842092991)
+[  582.8s]   y                            (-0.15267044305801392, 0.0827367901802063)
+[  582.8s]   z                            (-0.00027042647707276046, 0.1799197793006897)
+[  582.8s]   span                         (0.23142700735479593, 0.23540723323822021, 0.18019020577776246)
+[  582.8s]   quadrants_[--,-+,+-,++]      [16387, 237, 2194, 0]
+[  582.8s] ---------------------------------------------------
+Info: Saved as "tortilla_baked.blend"
+[  582.8s] Saved .blend: /workspace/output/tortilla_baked.blend
+[  582.8s] Wrote /workspace/output/run_info.txt
+[  582.8s] --bake-only requested: skipping render.
+[  582.8s] === done in 582.8s; outputs in /workspace/output ===
+
+bake: frame 181 :: 250
+bake: frame 182 :: 250
+bake: frame 183 :: 250
+bake: frame 184 :: 250
+bake: frame 185 :: 250
+bake: frame 186 :: 250
+bake: frame 187 :: 250
+bake: frame 188 :: 250
+bake: frame 189 :: 250
+bake: frame 190 :: 250
+bake: frame 191 :: 250
+bake: frame 192 :: 250
+bake: frame 193 :: 250
+bake: frame 194 :: 250
+bake: frame 195 :: 250
+bake: frame 196 :: 250
+bake: frame 197 :: 250
+bake: frame 198 :: 250
+bake: frame 199 :: 250
+bake: frame 200 :: 250
+bake: frame 201 :: 250
+bake: frame 202 :: 250
+bake: frame 203 :: 250
+bake: frame 204 :: 250
+bake: frame 205 :: 250
+bake: frame 206 :: 250
+bake: frame 207 :: 250
+bake: frame 208 :: 250
+bake: frame 209 :: 250
+bake: frame 210 :: 250
+bake: frame 211 :: 250
+bake: frame 212 :: 250
+bake: frame 213 :: 250
+bake: frame 214 :: 250
+bake: frame 215 :: 250
+bake: frame 216 :: 250
+bake: frame 217 :: 250
+bake: frame 218 :: 250
+bake: frame 219 :: 250
+bake: frame 220 :: 250
+bake: frame 221 :: 250
+bake: frame 222 :: 250
+bake: frame 223 :: 250
+bake: frame 224 :: 250
+bake: frame 225 :: 250
+bake: frame 226 :: 250
+bake: frame 227 :: 250
+bake: frame 228 :: 250
+bake: frame 229 :: 250
+bake: frame 230 :: 250
+bake: frame 231 :: 250
+bake: frame 232 :: 250
+bake: frame 233 :: 250
+bake: frame 234 :: 250
+bake: frame 235 :: 250
+bake: frame 236 :: 250
+bake: frame 237 :: 250
+bake: frame 238 :: 250
+bake: frame 239 :: 250
+bake: frame 240 :: 250
+bake: frame 241 :: 250
+bake: frame 242 :: 250
+bake: frame 243 :: 250
+bake: frame 244 :: 250
+bake: frame 245 :: 250
+bake: frame 246 :: 250
+bake: frame 247 :: 250
+bake: frame 248 :: 250
+bake: frame 249 :: 250
+bake: frame 250 :: 250
+
+# exit 0  598s  files: ['output/run_info.txt', 'output/tortilla_baked.blend']

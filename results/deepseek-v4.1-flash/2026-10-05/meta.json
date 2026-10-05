@@ -1,0 +1,18 @@
+{
+  "model": "DeepSeek V4.1 Flash",
+  "harness": "pi",
+  "date": "2026-10-05",
+  "final_image": "output/tortilla_final.png",
+  "preview": "preview.jpg",
+  "files": 44,
+  "cloud": {
+    "calls": 33,
+    "seconds": 6037,
+    "max_cost_usd": 2.35,
+    "gpus": [
+      "RTX-5090"
+    ]
+  },
+  "notes": "Run via the pi agent (deepseek/deepseek-flash, default thinking). Self-reports that render 3 lost six shader links, so the final image has flat materials; the delivered script fixes them but was not re-rendered.",
+  "grade": null
+}

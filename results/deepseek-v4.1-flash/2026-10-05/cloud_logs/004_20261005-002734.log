@@ -1,0 +1,43 @@
+# 20261005-002734 sandbox a204c785-c98b-4a7a-8134-9c89c402bb77 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --bake-only
+
+[    0.0s] === build_tortilla.py starting ===
+[    0.0s] argv: /opt/blender/blender --background --factory-startup --python build_tortilla.py -- --bake-only
+[    0.1s] Scene reset to empty factory state.
+[    0.1s] Host: Linux-6.8.0-137-generic-x86_64-with-glibc2.36 | x86_64 | Blender 4.5.13 LTS
+[    0.1s] Cutting board built (500 x 360 x 30 mm, beveled).
+[    0.1s] Tortilla mesh built: 609 verts, 556 faces (uniform grid disk).
+[    0.1s]   pin property: Vertex Group for pinning of vertices
+[    0.1s] Fold rig built (cloth + 2 animated paddle colliders). Frames 1-132.
+[    0.1s] Wood material built (procedural grain + scratches + satin coat).
+[    0.1s] Tortilla material built (procedural, node-based).
+[    0.1s] Lighting built: soft key + fill + rim + top (all procedural area lights).
+[    0.1s] World built: procedural vertical gradient (no HDRI).
+[    0.1s] Camera built: 85 mm, f/2.8, DoF focused on leading folded edge.
+[    0.1s] Steam volume material built (subtle).
+[    0.1s] Subtle volumetric steam domain added.
+[    0.3s] Cycles device: OPTIX ['NVIDIA GeForce RTX 5090']
+[    0.3s] Render: Cycles 3840x2160, 512 samples, AgX, 16-bit PNG.
+[    0.3s] Baking cloth simulation (132 frames, quality 6)...
+[  134.6s] Cloth bake finished in 134.3s.
+[  134.8s]   frame   1  x[-0.107,0.112] y[-0.112,0.107] z[-0.001,0.003]  quads=[4831, 4936, 4898, 4793]
+[  134.9s]   frame  12  x[-0.107,0.092] y[-0.100,0.084] z[-0.006,0.064]  quads=[5571, 4750, 5329, 3808]
+[  135.1s]   frame  22  x[-0.107,0.073] y[-0.108,0.060] z[-0.010,0.051]  quads=[7358, 4436, 4789, 2875]
+[  135.1s]   frame  48  x[-0.108,0.019] y[-0.121,0.028] z[-0.160,0.024]  quads=[13883, 2603, 2341, 631]
+[  135.2s]   frame  52  x[-0.108,0.171] y[-0.127,0.027] z[-0.063,0.065]  quads=[13960, 2768, 2183, 547]
+[  135.3s]   frame  66  x[-0.289,-0.108] y[-0.054,0.074] z[-0.081,0.046]  quads=[9393, 0, 10065, 0]
+[  135.4s]   frame  76  x[-0.259,-0.108] y[-0.104,0.031] z[-0.002,0.063]  quads=[17726, 0, 1732, 0]
+[  135.5s]   frame 102  x[-0.247,-0.108] y[-0.110,0.042] z[-0.016,0.061]  quads=[17066, 0, 2392, 0]
+[  135.6s]   frame 106  x[-0.221,-0.108] y[-0.106,0.036] z[-0.025,0.052]  quads=[16804, 0, 2654, 0]
+[  135.7s]   frame 120  x[-0.164,-0.001] y[-0.135,0.022] z[-0.000,0.096]  quads=[18328, 0, 1130, 0]
+[  135.8s]   frame 132  x[-0.127,0.048] y[-0.079,0.053] z[0.001,0.132]  quads=[14469, 31, 4949, 9]
+[  135.8s] ---- folded-tortilla diagnostics (final frame) ----
+[  135.9s]   verts                        19458
+[  135.9s]   x                            (-0.1267346441745758, 0.04790477827191353)
+[  135.9s]   y                            (-0.07886339724063873, 0.052670661360025406)
+[  135.9s]   z                            (0.0007865597726777196, 0.13150617480278015)
+[  135.9s]   span                         (0.17463942244648933, 0.13153405860066414, 0.13071961503010243)
+[  135.9s]   quadrants_[--,-+,+-,++]      [14469, 31, 4949, 9]
+[  135.9s] ---------------------------------------------------
+
+# exit 0  146s  files: ['output/run_info.txt', 'output/tortilla_baked.blend']

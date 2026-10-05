@@ -6,12 +6,26 @@ One task: using only headless Blender and one Python script, build, cloth-simula
 
 It's a fun benchmark covering 3D modeling, physics, procedural materials, photography, and the model's ability to critique its own work. The full spec is in [`TASK.md`](TASK.md).
 
+![TortillaBench round 1: Claude Sonnet 5.5, GPT-6 Astra, Claude Opus 5.5, DeepSeek V4.1 Flash](assets/round1_grid.jpg)
+
+**Round 1** (October 2026): four models, the same prompt, and the same cloud RTX 5090. Every run used 3 of 3 renders.
+
+| Model | Agent | Cloud calls | GPU time | Notes |
+|---|---|---|---|---|
+| GPT-6 Astra | Codex | 3 | ~0.9 h | Cleanest layered fold and the strongest char spots |
+| Claude Opus 5.5 | Claude Code | 33 | ~9.7 h | About 30 simulation-only bakes to solve the second fold; the only run that added props and steam |
+| DeepSeek V4.1 Flash | pi | 34 | ~1.7 h | Six shader links dropped before the last render, so the materials came out flat (the model caught and reported this itself) |
+| Claude Sonnet 5.5 | Claude Code | — | — | Ran before cloud rendering existed, on local Blender |
+
 ## Gallery
 
 <!-- gallery:start -->
 | Final render | Model | Date | Grade | Run |
 |---|---|---|---|---|
+| <img src="results/claude-opus-5.5/2026-10-04/preview.jpg" width="360"> | **Claude Opus 5.5**<br>claude-code | 2026-10-04 | not graded | [files](results/claude-opus-5.5/2026-10-04) |
 | <img src="results/claude-sonnet-5.5/2026-09-29/preview.jpg" width="360"> | **Claude Sonnet 5.5**<br>claude-code | 2026-09-29 | not graded | [files](results/claude-sonnet-5.5/2026-09-29) |
+| <img src="results/deepseek-v4.1-flash/2026-10-05/preview.jpg" width="360"> | **DeepSeek V4.1 Flash**<br>pi | 2026-10-05 | not graded | [files](results/deepseek-v4.1-flash/2026-10-05) |
+| <img src="results/gpt-6-astra/2026-10-04/preview.jpg" width="360"> | **GPT-6 Astra**<br>codex | 2026-10-04 | not graded | [files](results/gpt-6-astra/2026-10-04) |
 <!-- gallery:end -->
 
 ## Run it on a model

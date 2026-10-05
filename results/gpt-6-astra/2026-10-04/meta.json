@@ -1,0 +1,18 @@
+{
+  "model": "GPT-6 Astra",
+  "harness": "codex",
+  "date": "2026-10-04",
+  "final_image": "iterations/03/tortilla.png",
+  "preview": "preview.jpg",
+  "files": 32,
+  "cloud": {
+    "calls": 2,
+    "seconds": 2345,
+    "max_cost_usd": 0.99,
+    "gpus": [
+      "RTX-5090"
+    ]
+  },
+  "notes": "Render 2's controller lost DNS; its output was recovered without re-running (recover_existing_run.py), so cloud_runs.json lists only renders 1 and 3. The agent's 100 MB results zip was removed from the collected copy (it duplicates the folder and is over GitHub's file limit).",
+  "grade": null
+}

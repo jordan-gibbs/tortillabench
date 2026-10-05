@@ -1,0 +1,65 @@
+PROCEDURAL-PHOTOREAL-01 — COMPLETED BENCHMARK RUN
+
+Final submission: attempt 3, the last completed render.
+Render budget: exactly 3 / 3 render pipelines; 0 bake-only runs.
+All three Blender jobs exited 0. No Blender GUI was used.
+All three benchmark sandboxes were destroyed and verified.
+
+FINAL DELIVERABLES
+D1  build_tortilla.py
+D2  COMMANDS.txt (exact cloud and native Blender commands)
+D3  iterations/03/tortilla.png (3840 x 2160, RGB, 16-bit PNG)
+D4  iterations/03/tortilla.blend (baked source plus final applied cloth surface)
+D5  cloud_logs/001_20261004-154955.log
+    recovery_logs/attempt_02_full_stdout.log
+    cloud_logs/003_20261004-163519.log
+D6  iteration_log.json and iterations/01, iterations/02, iterations/03
+D7  TECHNICAL_NOTES.txt
+
+The final image is the unmodified Cycles PNG. inspection.jpg and
+ detail_inspection.jpg are derived display copies, not additional renders.
+The results ZIP contains the final scene, every render and script version,
+commands, reports, checksums and logs. Earlier .blend files remain in the
+workspace but are omitted from the ZIP to avoid unnecessary duplication.
+
+RUN RESULTS
+Attempt 1: 1920 x 1080, 192 samples, 1613.73 s Blender pipeline runtime.
+Attempt 2: 3840 x 2160, 384 samples, 558.96 s Blender pipeline runtime.
+Attempt 3: 3840 x 2160, 384 samples, 680.15 s Blender pipeline runtime.
+
+Final hardware: NVIDIA GeForce RTX 5090, OptiX; 16 allocated vCPUs, 16 GB RAM.
+Blender: 4.5.13 LTS. Fixed seed: 731904.
+Final bake: 632.71 s, 7225 vertices, 7056 quads, frame 132.
+Final contact correction: 0.02329 mm.
+Audited minimum board clearance after thickness/displacement: 0.030 mm.
+Final cloud lifecycle (including startup/download/cleanup): 710 s.
+
+NETWORK RECOVERY AND LOG INTEGRITY
+An initial restricted-network connection failed before any Blender process or
+sandbox was created; it consumed no render attempt. Its log is preserved in
+iterations/01/preflight_connection.log.
+
+The local controller for attempt 2 lost DNS connectivity after frame 108.
+The original cloud Blender job continued and exited successfully. The existing
+job's full stdout and generated files were recovered without launching Blender
+again; its sandbox was then destroyed and verified. See
+recovery_logs/attempt_02_recovery.json and recover_existing_run.py.
+
+The provided cloud_logs and cloud_runs.json were not edited. cloud_runs.json
+contains attempts 1 and 3 because the failed local controller did not append
+attempt 2; the recovery record and iteration_log.json document that run.
+
+FINAL VISUAL CRITIQUE
+The final image shows four separated layers, rounded closed folds, textured pale rims, and contact with the board. The severe first-pass thickness spikes and floating are gone. The front rim has stronger flour detail, while the rear surface and background have pronounced macro blur. Remaining limitations: some localized angular ripples remain along the open arc, and the upper surface is still visually smooth and mostly outside the shallow focal plane. The third image is submitted as required; no earlier image was selected.
+
+VERIFICATION
+The final PNG was decoded and verified, and its IHDR confirms 3840 x 2160 with
+16-bit RGB channels. The .blend has a valid Blender file signature. The root
+script exactly matches the source snapshot used for attempt 3. The script
+reported a baked cloth cache and finite geometry. Checksums identify all
+submitted scripts, images, the final scene, and logs.
+
+The successful GPU path was exercised; the automatic CPU fallback was not.
+Fixed seeds are set, but an identical rerun and an independent mesh-intersection
+analysis were not performed. This benchmark provides visual criteria rather
+than an automated numerical scorer, so no numerical score is claimed.

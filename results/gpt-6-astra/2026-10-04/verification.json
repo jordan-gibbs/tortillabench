@@ -1,0 +1,35 @@
+{
+  "final_attempt": 3,
+  "render_attempts_used": 3,
+  "allowed_render_attempts": 3,
+  "final_source_matches_rendered_snapshot": true,
+  "final_png": {
+    "width": 3840,
+    "height": 2160,
+    "bit_depth": 16,
+    "color_type": "RGB",
+    "decoded_and_verified": true
+  },
+  "blend_header": "BLENDER-v405",
+  "cloth_cache_baked": true,
+  "cloth_frame": 132,
+  "minimum_board_clearance_mm": 0.03,
+  "script_runtime_seconds": 680.1497201458551,
+  "gpu": {
+    "backend": "OPTIX",
+    "devices": [
+      "NVIDIA GeForce RTX 5090 (OPTIX)"
+    ]
+  },
+  "sandboxes_destroyed_verified": [
+    1,
+    2,
+    3
+  ],
+  "visual_inspection_completed": true,
+  "verification_limits": [
+    "CPU fallback is implemented but was not exercised.",
+    "Reproducibility uses fixed seeds; identical reruns and independent numerical intersection tests were not performed.",
+    "Visual quality is assessed in the iteration critiques; no separate numerical benchmark scorer was supplied."
+  ]
+}

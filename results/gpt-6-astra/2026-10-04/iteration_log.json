@@ -1,0 +1,128 @@
+{
+  "benchmark": "PROCEDURAL-PHOTOREAL-01",
+  "maximum_render_attempts": 3,
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "completed",
+      "script": "iterations/01/build_tortilla.py",
+      "image": "iterations/01/tortilla.png",
+      "command": "& \"C:\\Users\\Jordan\\PycharmProjects\\tortillabench\\.venv\\Scripts\\python.exe\" render.py build_tortilla.py -- --output iterations/01 --width 1920 --samples 192",
+      "intent": "Assess baked cloth geometry, toasted procedural material, macro composition and lighting at required minimum resolution.",
+      "script_sha256": "fe00f70e2313bfab6fcae01a9c6febc281d1111499b73edf5dcfe20274627817",
+      "runtime": {
+        "blender": "4.5.13 LTS",
+        "hardware": {
+          "backend": "OPTIX",
+          "devices": [
+            "NVIDIA GeForce RTX 5090 (CUDA)",
+            "NVIDIA GeForce RTX 5090 (OPTIX)"
+          ]
+        },
+        "seed": 731904,
+        "resolution": [
+          1920,
+          1080
+        ],
+        "samples": 192,
+        "bake_only": false,
+        "total_seconds": 1613.7270369771868,
+        "image": "/workspace/iterations/01/tortilla.png",
+        "blend": "/workspace/iterations/01/tortilla.blend"
+      },
+      "critique": "The quarter-fold silhouette and separated layers are visible, but even-thickness solidification creates narrow spikes. Seating that outlier lifts the entire tortilla about 9 mm. Excessive exposure flattens the flour detail, and the focus plane lies behind the leading edge. Wood grain and minimal framing read well, but the result is too bright and soft.",
+      "changes_for_next": [
+        "Disable even-offset solidification to eliminate unbounded miter spikes; retain bounded normal thickness.",
+        "Use UV coordinates for micro-displacement and audit contact after metric scaling.",
+        "Keep the original board collider with the unscaled baked simulation; create a separate metric render board.",
+        "Move focus onto the front layered arc and use f/5.6 for useful macro sharpness with background blur.",
+        "Reduce exposure by 1.15 stops and soften the deepest char tones.",
+        "Select only the preferred OptiX device; render at 3840x2160 with 384 samples.",
+        "Reduce cloth substeps from 12 to 8 and allocate 16 cloud vCPUs for the second bake; keep the same 7225-vertex mesh and 132 frames."
+      ],
+      "full_stdout": "cloud_logs/001_20261004-154955.log"
+    },
+    {
+      "attempt": 2,
+      "status": "completed_and_recovered",
+      "script": "iterations/02/build_tortilla.py",
+      "script_sha256": "2840a30ccc4801f0dff6e748d250774c62b46b41d87a1c0b4b22bb31ceae57c2",
+      "image": "iterations/02/tortilla.png",
+      "command": "& \"C:\\Users\\Jordan\\PycharmProjects\\tortillabench\\.venv\\Scripts\\python.exe\" render.py build_tortilla.py --cpu 16 -- --output iterations/02 --width 3840 --samples 384",
+      "runtime": {
+        "blender": "4.5.13 LTS",
+        "hardware": {
+          "backend": "OPTIX",
+          "devices": [
+            "NVIDIA GeForce RTX 5090 (OPTIX)"
+          ]
+        },
+        "seed": 731904,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "samples": 384,
+        "bake_only": false,
+        "total_seconds": 558.9642390133813,
+        "image": "/workspace/iterations/02/tortilla.png",
+        "blend": "/workspace/iterations/02/tortilla.blend"
+      },
+      "recovery": "recovery_logs/attempt_02_recovery.json",
+      "full_stdout": "recovery_logs/attempt_02_full_stdout.log",
+      "critique": "The thickness spikes and visible floating are eliminated; the contact correction fell from 9.049 mm to 0.123 mm. The 4K render has a readable folded silhouette and cleaner focus. The narrow cut rims still show overly dark vertical streaks from degenerate UV bump derivatives, and the top surface remains very smooth and mostly soft in focus.",
+      "changes_for_next": [
+        "Give only solidified cut rims a pale, rough, procedurally porous 3D crumb material to avoid degenerate UV derivatives.",
+        "Strengthen gentle flour mottling and add sparse submillimetre toasted freckles.",
+        "Use a 76 mm lens, slightly raise the low camera angle, and shift focus a few millimetres toward the leading upper surface while retaining f/5.6 macro bokeh.",
+        "Reduce exposure another quarter stop; preserve the successful geometry, collision, normal thickness, and contact settings."
+      ]
+    },
+    {
+      "attempt": 3,
+      "status": "completed",
+      "script": "iterations/03/build_tortilla.py",
+      "script_sha256": "43216f5a0eff8775579b32315de74fda8d87f5790eef84ff3d8af0cd3804fc50",
+      "image": "iterations/03/tortilla.png",
+      "command": "& \"C:\\Users\\Jordan\\PycharmProjects\\tortillabench\\.venv\\Scripts\\python.exe\" render.py build_tortilla.py --cpu 16 -- --output iterations/03 --width 3840 --samples 384",
+      "runtime": {
+        "blender": "4.5.13 LTS",
+        "hardware": {
+          "backend": "OPTIX",
+          "devices": [
+            "NVIDIA GeForce RTX 5090 (OPTIX)"
+          ]
+        },
+        "seed": 731904,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "samples": 384,
+        "bake_only": false,
+        "total_seconds": 680.1497201458551,
+        "image": "/workspace/iterations/03/tortilla.png",
+        "blend": "/workspace/iterations/03/tortilla.blend"
+      },
+      "full_stdout": "cloud_logs/003_20261004-163519.log",
+      "critique": "The final image shows four separated layers, rounded closed folds, textured pale rims, and contact with the board. The severe first-pass thickness spikes and floating are gone. The front rim has stronger flour detail, while the rear surface and background have pronounced macro blur. Remaining limitations: some localized angular ripples remain along the open arc, and the upper surface is still visually smooth and mostly outside the shallow focal plane. The third image is submitted as required; no earlier image was selected.",
+      "changes_for_next": [],
+      "final_submission": true
+    }
+  ],
+  "preflight": [
+    {
+      "status": "connection_failed_before_sandbox_creation",
+      "render_attempt_used": false,
+      "log": "iterations/01/preflight_connection.log",
+      "detail": "Restricted-network launch failed the cloud organization check with MaxRetryError. Retried the same render via the approved network-enabled command runner."
+    }
+  ],
+  "final_attempt": 3,
+  "render_attempts_used": 3,
+  "bake_only_runs": 0,
+  "additional_blender_executions": 0,
+  "final_image": "iterations/03/tortilla.png",
+  "final_scene": "iterations/03/tortilla.blend",
+  "inspection_note": "JPEG previews and detail crops were made from completed PNGs solely for inspection; they are not Blender renders."
+}

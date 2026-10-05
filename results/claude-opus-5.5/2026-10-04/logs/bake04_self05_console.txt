@@ -1,0 +1,31 @@
+render.py: cloud run 5 — spot RTX-5090 > RTX-4090, 8 vCPU, 16 GB, TTL 45 min (max $1.05)
+render.py: sandbox 06cec5af-2c93-41a5-8033-1ad8dc42ce3c up on RTX-5090 (2s)
+[tortilla     0.0s] Blender 4.5.13 LTS | Python 3.11.15 | Linux x86_64 | output dir /workspace/bakes/bake04_self05
+[tortilla     0.0s] scene cleared (0 objects left)
+[tortilla     0.0s] tortilla mesh: 3367 verts, 6534 tris, 33 rings, edge 3.3 mm, diameter ~22 cm
+[tortilla     0.1s] cutting board 48 x 32 x 2.2 cm, rounded corners, bevelled edges, 398 faces (collider)
+[tortilla     0.1s] cloth simulation: 4 stages (fold 1, settle, fold 2, settle)
+[tortilla     0.1s]   fold 1: yaw +2.2 deg, offset 2.7 mm, 464 pinned rim verts, hinge height 4.0 mm
+[tortilla   285.4s]   [fold1] baked 90 frames in 285.2s
+[tortilla   285.5s]   [fold1] frozen frame 90: z min 1.90 mm, median 9.91 mm, max 45.92 mm, verts below 0.3 mm: 0
+[tortilla   373.5s]   [settle1] baked 50 frames in 87.9s
+[tortilla   373.5s]   [settle1] frozen frame 50: z min 2.05 mm, median 9.99 mm, max 33.88 mm, verts below 0.3 mm: 0
+[tortilla   373.6s] cloth done in 373.4s; layer check: {'stacked_verts': 974, 'too_close': 0, 'min_gap': 0.0020347540266811848, 'gap_p05': 0.002685478888452053, 'gap_p50': 0.0047731888480484486}
+[tortilla   378.7s] tortilla finished: lowest surface point moved from 1.40 mm to 0.15 mm above the board; final thickness 1.5-1.9 mm
+[tortilla   380.2s] seamless backdrop built
+[tortilla   380.4s] steam volume added
+[tortilla   380.4s] scene dressed: board material, backdrop, bowl, two limes
+[tortilla   380.4s] procedural studio world (gradient, no HDRI)
+[tortilla   380.4s] light Key_Softbox: 4.59 W at 0.75 m, 0.70x0.50 m
+[tortilla   380.4s] light Fill_Bounce: 1.41 W at 1.00 m, 1.20x1.00 m
+[tortilla   380.4s] light Rim_Back: 2.85 W at 0.55 m, 0.28x0.22 m
+[tortilla   380.4s] light Backdrop_Glow: 3.18 W at 0.75 m, 0.90x0.60 m
+[tortilla   380.4s] camera: 85 mm f/2.8, at (0.035, -0.495, 0.08), pitch 5.8 deg down, focus on leading fold 43.5 cm away (566 front verts)
+render.py: downloaded bakes/bake04_self05/tortilla_scene.blend (0.5 MB)
+render.py: downloaded bakes/bake04_self05/sim_fold1_f40.obj (0.2 MB)
+render.py: downloaded bakes/bake04_self05/sim_final_cloth.obj (0.2 MB)
+render.py: downloaded bakes/bake04_self05/sim_stats.json (0.0 MB)
+render.py: downloaded bakes/bake04_self05/sim_rest.obj (0.2 MB)
+render.py: downloaded bakes/bake04_self05/sim_after_fold1.obj (0.2 MB)
+render.py: sandbox 06cec5af-2c93-41a5-8033-1ad8dc42ce3c destroyed (verified)
+render.py: done — exit 0, 395s, 6 file(s), log cloud_logs/005_20261004-163429.log

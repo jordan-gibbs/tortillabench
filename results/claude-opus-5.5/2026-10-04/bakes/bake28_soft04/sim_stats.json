@@ -1,0 +1,125 @@
+{
+  "blender": "4.5.13 LTS",
+  "seed": 7,
+  "sim_seconds": 1058.8461813926697,
+  "stages": [
+    {
+      "label": "fold1",
+      "frames": 90,
+      "baked": true,
+      "z_min": 0.002013016492128372,
+      "z_max": 0.009045138023793697
+    },
+    {
+      "label": "settle1",
+      "frames": 60,
+      "baked": true,
+      "z_min": 0.00194961775559932,
+      "z_max": 0.008912594057619572
+    },
+    {
+      "label": "fold2",
+      "frames": 90,
+      "baked": true,
+      "z_min": 0.0016818621661514044,
+      "z_max": 0.012727256864309311
+    },
+    {
+      "label": "settle2",
+      "frames": 30,
+      "baked": true,
+      "z_min": 0.0018155350117012858,
+      "z_max": 0.014679420739412308
+    }
+  ],
+  "layers": {
+    "stacked_verts": 3294,
+    "too_close": 62,
+    "min_gap": 0.0009947567014023662,
+    "gap_p05": 0.002034576842561364,
+    "gap_p50": 0.002742667915299535
+  },
+  "camera": {
+    "cam_loc": [
+      0.03527813032269478,
+      -0.49515315890312195,
+      0.07999999821186066
+    ],
+    "focus": [
+      -0.03461352363228798,
+      -0.029028205201029778,
+      0.05655856803059578
+    ],
+    "focus_dist": 0.46972756754604955
+  },
+  "frame": {
+    "tortilla_frame_bbox": [
+      0.22560395300388336,
+      0.22516006231307983,
+      0.8191362619400024,
+      1.2008419036865234
+    ],
+    "Bowl_frame_bbox": [
+      -0.039546769112348557,
+      0.41630110144615173,
+      0.3636794984340668,
+      0.7017256617546082
+    ],
+    "Lime1_frame_bbox": [
+      0.7979459762573242,
+      0.37762436270713806,
+      1.0720821619033813,
+      0.7098591923713684
+    ],
+    "Lime2_frame_bbox": [
+      0.9703779220581055,
+      0.43567144870758057,
+      1.20671546459198,
+      0.7324680685997009
+    ],
+    "CuttingBoard_frame_bbox": [
+      -1.1258825063705444,
+      -0.4772585332393646,
+      2.107410192489624,
+      0.4444131851196289
+    ]
+  },
+  "device": "OPTIX",
+  "gpus": [
+    "NVIDIA GeForce RTX 5090"
+  ],
+  "cpu_threads": 192,
+  "cloth": {
+    "quality": 12,
+    "mass": 0.003,
+    "air_damping": 1.0,
+    "tension": 60.0,
+    "compression": 60.0,
+    "shear": 30.0,
+    "bending": 0.8,
+    "tension_damping": 5.0,
+    "shear_damping": 5.0,
+    "bending_damping": 0.5,
+    "collision_quality": 5,
+    "distance_min": 0.0012,
+    "self_distance_min": 0.001,
+    "self_friction": 6.0,
+    "use_self_collision": true,
+    "self_impulse_clamp": 0.0,
+    "fold2_shift": 0.0,
+    "fold2_angle": 180.0,
+    "fold2_hold": 0.03,
+    "fold2_extra_lift": 0.0025,
+    "settle_air_damping": 5.0,
+    "settle2_hold": true,
+    "fold2_inner_delta": 0.004,
+    "fold2_land_gap": 0.003,
+    "settle2_frames": 30.0,
+    "settle2_soft": 0.4,
+    "settle2_pin_stiffness": 1.0,
+    "fold2_land_pct": 0.97,
+    "settle2_air_damping": 10.0,
+    "board_thickness_outer": 0.0003,
+    "board_friction": 8.0
+  }
+}

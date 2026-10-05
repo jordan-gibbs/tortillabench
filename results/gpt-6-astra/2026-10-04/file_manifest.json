@@ -1,0 +1,165 @@
+{
+  "final_attempt": 3,
+  "files": [
+    {
+      "path": "build_tortilla.py",
+      "bytes": 30203,
+      "sha256": "43216f5a0eff8775579b32315de74fda8d87f5790eef84ff3d8af0cd3804fc50"
+    },
+    {
+      "path": "COMMANDS.txt",
+      "bytes": 1453,
+      "sha256": "a5df012d0b84792fb28ae3fb515cc91680b032ba6cd7b9ff5749ac864ef332c7"
+    },
+    {
+      "path": "REPORT.txt",
+      "bytes": 3745,
+      "sha256": "bba55e2b0b2a14fd597b1daca7318316fdb2dc96b20d74c22f52f017a141c1a8"
+    },
+    {
+      "path": "TECHNICAL_NOTES.txt",
+      "bytes": 2951,
+      "sha256": "92037c101c73e9a50fcfafc98876e1b052537e13a3995f37f70bee025e8d89f1"
+    },
+    {
+      "path": "iteration_log.json",
+      "bytes": 6780,
+      "sha256": "c3331ef79a97ea4e9e20dd420445b69df35ca10be2ef697ad75a5352517685b5"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 976,
+      "sha256": "d488460f1225d8e1372449dd3226e47d54dd0e90cf9071e6c2fafd0eea3a7b4f"
+    },
+    {
+      "path": "cloud_runs.json",
+      "bytes": 1192,
+      "sha256": "bf0865ace5fe8184e0bb27718b5c36894c8f0c6440576762c5376e16ccce5485"
+    },
+    {
+      "path": "recover_existing_run.py",
+      "bytes": 2939,
+      "sha256": "832424c889086666f71ceb537fe9a6959209f59ccd0661d5b7de4069e7d3148e"
+    },
+    {
+      "path": "cloud_logs/001_20261004-154955.log",
+      "bytes": 13816,
+      "sha256": "4794e62df7b9546262a6c286a53dc0bc360be3ab30ecab55a48a8dda4304d93a"
+    },
+    {
+      "path": "cloud_logs/002_20261004-162038.log",
+      "bytes": 1065,
+      "sha256": "af42883e944afffc710f27cbb46400811d088263020c1dda37b1e829e4642a92"
+    },
+    {
+      "path": "cloud_logs/003_20261004-163519.log",
+      "bytes": 26502,
+      "sha256": "c6f65f4557fca7d1dbece23da9d4426526c421a6fa6f080f42e25da076d7d198"
+    },
+    {
+      "path": "recovery_logs/attempt_02_full_stdout.log",
+      "bytes": 26624,
+      "sha256": "44f161d8c1f6814d514009b10e2951a20e0e2658c113eb700f2ff4c297f346fe"
+    },
+    {
+      "path": "recovery_logs/attempt_02_recovery.json",
+      "bytes": 843,
+      "sha256": "4c510bc515e8ff080dfbc0e930cb3e9c94c516f0cd31f0e4dbb7b47dc2c864bf"
+    },
+    {
+      "path": "recovery_logs/recovery_runner.log",
+      "bytes": 3916,
+      "sha256": "1deaf0903b9ed41ee5ecf3f6a6939f66d81a6a9cbb567ec6f9bc2937a865115b"
+    },
+    {
+      "path": "iterations/01/build_tortilla.py",
+      "bytes": 27147,
+      "sha256": "fe00f70e2313bfab6fcae01a9c6febc281d1111499b73edf5dcfe20274627817"
+    },
+    {
+      "path": "iterations/01/inspection.jpg",
+      "bytes": 131066,
+      "sha256": "8650ab7ef23bd598f447c31d9dabcd5dcafb1e5a6b8007b6f27c5bb55965ea62"
+    },
+    {
+      "path": "iterations/01/preflight_connection.log",
+      "bytes": 108,
+      "sha256": "d42f142dcdcd09ef50eebd42c905d55f394c1c27947776f77572bfb658f58c85"
+    },
+    {
+      "path": "iterations/01/run_summary.json",
+      "bytes": 422,
+      "sha256": "082725e3d88ca0cff4ef80ff14b8ea5d1b82694d10d4e517433faa9f54b7b9c2"
+    },
+    {
+      "path": "iterations/01/simulation.json",
+      "bytes": 470,
+      "sha256": "be4316d38b7bf5e64381b1b5d21264b8c785e8ef2fd7cd4f1eee79620401653a"
+    },
+    {
+      "path": "iterations/01/tortilla.png",
+      "bytes": 7713329,
+      "sha256": "8f5244f1d227694e81e56d403c63c2bd2ca6ae527c3463aff9733a7c64321041"
+    },
+    {
+      "path": "iterations/02/build_tortilla.py",
+      "bytes": 28370,
+      "sha256": "2840a30ccc4801f0dff6e748d250774c62b46b41d87a1c0b4b22bb31ceae57c2"
+    },
+    {
+      "path": "iterations/02/inspection.jpg",
+      "bytes": 167027,
+      "sha256": "8b7dfaa77527f7ffe90daa4c34f7935a6406fce943a4ee4e2830256c41f37259"
+    },
+    {
+      "path": "iterations/02/run_summary.json",
+      "bytes": 381,
+      "sha256": "0dde27b57f405d7e51061d7f706a77f19d1167f54e73e4dc6c23f73856687330"
+    },
+    {
+      "path": "iterations/02/simulation.json",
+      "bytes": 567,
+      "sha256": "366913cb6e1a7fda62a219cb9fb3a5442e17196db1ddb1b47d7ad6c52413196b"
+    },
+    {
+      "path": "iterations/02/tortilla.png",
+      "bytes": 29730560,
+      "sha256": "c266676875df75df80dc35d56b639b94f5364ec1f4e29720d4231f8f9676cb7f"
+    },
+    {
+      "path": "iterations/03/build_tortilla.py",
+      "bytes": 30203,
+      "sha256": "43216f5a0eff8775579b32315de74fda8d87f5790eef84ff3d8af0cd3804fc50"
+    },
+    {
+      "path": "iterations/03/detail_inspection.jpg",
+      "bytes": 197226,
+      "sha256": "a9f1e35fcdf3893c91ab30574eba735484dc86ee9d1e063accbab462956883a5"
+    },
+    {
+      "path": "iterations/03/inspection.jpg",
+      "bytes": 200543,
+      "sha256": "370a4da7c96451719527d6370701c524ee2ceab2aa53e343742477f4e6a779a2"
+    },
+    {
+      "path": "iterations/03/run_summary.json",
+      "bytes": 381,
+      "sha256": "6d8ed06fb4cbc60c0ca4b8feb72d7b884a49f6ae0bb8c14e500be80f29579a02"
+    },
+    {
+      "path": "iterations/03/simulation.json",
+      "bytes": 568,
+      "sha256": "7b7508dfe58b7c318ef24f30c86fe7ef36487ffd6a2115720f2d7b0304975030"
+    },
+    {
+      "path": "iterations/03/tortilla.blend",
+      "bytes": 39376926,
+      "sha256": "85a25132340152d700ec54ca4d5b2f7e0294e5824c3001ddefeff9541eb17e70"
+    },
+    {
+      "path": "iterations/03/tortilla.png",
+      "bytes": 30389687,
+      "sha256": "9e14b80ac14d911df0451cff2323bc5ab331735e482edf302e5b0ccac66f84ed"
+    }
+  ]
+}

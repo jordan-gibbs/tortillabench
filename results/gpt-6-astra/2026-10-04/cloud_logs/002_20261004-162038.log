@@ -1,0 +1,18 @@
+# 20261004-162038 sandbox 5115d5e6-729d-48e3-8328-c7f95b31aae6 gpu RTX-5090
+# blender --background --factory-startup --python build_tortilla.py --output iterations/02 --width 3840 --samples 384
+
+[TORTILLA     0.00s] Starting self-contained tortilla construction
+[TORTILLA     0.00s] Blender 4.5.13 LTS; Linux-6.8.0-137-generic-x86_64-with-glibc2.36; 192 logical CPUs
+[TORTILLA     0.04s] GPU hardware: name, driver_version, memory.total [MiB]
+NVIDIA GeForce RTX 5090, 580.76.05, 32607 MiB
+[TORTILLA     0.21s] Cycles GPU: NVIDIA GeForce RTX 5090 (OPTIX)
+[TORTILLA     1.16s] Baking cloth: 7225 vertices, frames 1–132, two successive folds
+[TORTILLA    41.54s] Cloth bake frame 12/132
+[TORTILLA    86.44s] Cloth bake frame 24/132
+[TORTILLA   134.36s] Cloth bake frame 36/132
+[TORTILLA   182.64s] Cloth bake frame 48/132
+[TORTILLA   229.54s] Cloth bake frame 60/132
+[TORTILLA   277.14s] Cloth bake frame 72/132
+[TORTILLA   323.63s] Cloth bake frame 84/132
+[TORTILLA   369.14s] Cloth bake frame 96/132
+[TORTILLA   415.74s] Cloth bake frame 108/132

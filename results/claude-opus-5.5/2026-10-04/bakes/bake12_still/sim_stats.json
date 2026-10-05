@@ -1,0 +1,114 @@
+{
+  "blender": "4.5.13 LTS",
+  "seed": 7,
+  "sim_seconds": 1561.7360932826996,
+  "stages": [
+    {
+      "label": "fold1",
+      "frames": 90,
+      "baked": true,
+      "z_min": 0.002013016492128372,
+      "z_max": 0.009045138023793697
+    },
+    {
+      "label": "settle1",
+      "frames": 60,
+      "baked": true,
+      "z_min": 0.0019471481209620833,
+      "z_max": 0.008947527967393398
+    },
+    {
+      "label": "fold2",
+      "frames": 90,
+      "baked": true,
+      "z_min": 0.0019471471896395087,
+      "z_max": 0.00898656714707613
+    },
+    {
+      "label": "settle2",
+      "frames": 60,
+      "baked": true,
+      "z_min": 0.001950389938428998,
+      "z_max": 0.009001685306429863
+    }
+  ],
+  "layers": {
+    "stacked_verts": 3113,
+    "too_close": 10,
+    "min_gap": 0.0018539422890171409,
+    "gap_p05": 0.00205216184258461,
+    "gap_p50": 0.0024859393015503883
+  },
+  "camera": {
+    "cam_loc": [
+      0.035213861614465714,
+      -0.4949193298816681,
+      0.07999999821186066
+    ],
+    "focus": [
+      0.04940997064113617,
+      -0.06317990273237228,
+      0.002849685028195381
+    ],
+    "focus_dist": 0.43541146822572663
+  },
+  "frame": {
+    "tortilla_frame_bbox": [
+      0.20706869661808014,
+      0.15176625549793243,
+      0.9019927978515625,
+      0.4515552222728729
+    ],
+    "Bowl_frame_bbox": [
+      -0.03956243395805359,
+      0.41615787148475647,
+      0.36376407742500305,
+      0.7016710042953491
+    ],
+    "Lime1_frame_bbox": [
+      0.7981660962104797,
+      0.37745848298072815,
+      1.0723938941955566,
+      0.7097993493080139
+    ],
+    "Lime2_frame_bbox": [
+      0.9706167578697205,
+      0.43553873896598816,
+      1.2070337533950806,
+      0.7324199676513672
+    ],
+    "CuttingBoard_frame_bbox": [
+      -1.1265825033187866,
+      -0.47834229469299316,
+      2.1090359687805176,
+      0.44425010681152344
+    ]
+  },
+  "device": "OPTIX",
+  "gpus": [
+    "NVIDIA GeForce RTX 5090"
+  ],
+  "cpu_threads": 192,
+  "cloth": {
+    "quality": 12,
+    "mass": 0.003,
+    "air_damping": 1.0,
+    "tension": 60.0,
+    "compression": 60.0,
+    "shear": 30.0,
+    "bending": 0.8,
+    "tension_damping": 5.0,
+    "shear_damping": 5.0,
+    "bending_damping": 0.5,
+    "collision_quality": 5,
+    "distance_min": 0.0012,
+    "self_distance_min": 0.001,
+    "self_friction": 6.0,
+    "use_self_collision": true,
+    "self_impulse_clamp": 0.0,
+    "fold2_shift": 0.0,
+    "fold2_angle": 0.0,
+    "board_thickness_outer": 0.0003,
+    "board_friction": 8.0
+  }
+}
