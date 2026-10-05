@@ -1,7 +1,5 @@
 # TortillaBench
 
-**Can your model fold a tortilla?**
-
 One task: using only headless Blender and one Python script, build, cloth-simulate, shade, light, and render a photorealistic warm flour tortilla folded into quarters on a wooden cutting board. No GUI, no external assets, no HDRIs, and only **three renders** to get it right.
 
 It's a fun benchmark covering 3D modeling, physics, procedural materials, photography, and the model's ability to critique its own work. The full spec is in [`TASK.md`](TASK.md).
