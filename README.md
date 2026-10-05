@@ -1,4 +1,4 @@
-# 🌮 TortillaBench
+# TortillaBench
 
 **Can your model fold a tortilla?**
 
@@ -10,22 +10,26 @@ It's a fun benchmark covering 3D modeling, physics, procedural materials, photog
 
 **Round 1** (October 2026): four models, the same prompt, and the same cloud RTX 5090. Every run used 3 of 3 renders.
 
-| Model | Agent | Cloud calls | GPU time | Notes |
-|---|---|---|---|---|
-| GPT-6 Astra | Codex | 3 | ~0.9 h | Cleanest layered fold and the strongest char spots |
-| Claude Opus 5.5 | Claude Code | 33 | ~9.7 h | About 30 simulation-only bakes to solve the second fold; the only run that added props and steam |
-| DeepSeek V4.1 Flash | pi | 34 | ~1.7 h | Six shader links dropped before the last render, so the materials came out flat (the model caught and reported this itself) |
-| Claude Sonnet 5.5 | Claude Code | — | — | Ran before cloud rendering existed, on local Blender |
+![TortillaBench round 1 grades](assets/round1_grades.jpg)
+
+| Model | Agent | Grade | Cloud calls | GPU time | Notes |
+|---|---|---|---|---|---|
+| Claude Opus 5.5 | Claude Code | 6.3 | 33 | ~9.7 h | About 30 simulation-only bakes to solve the second fold; the only run that added props and steam |
+| GPT-6 Astra | Codex | 6.0 | 3 | ~0.9 h | Cleanest layered fold and the strongest char spots |
+| Claude Sonnet 5.5 | Claude Code | 5.6 | n/a | n/a | Ran before cloud rendering existed, on local Blender |
+| DeepSeek V4.1 Flash | pi | 4.7 | 34 | ~1.7 h | Six shader links dropped before the last render, so the materials came out flat (the model caught and reported this itself) |
+
+Grades are from one pass of Gemini 3.1 Pro using [`GRADING.md`](GRADING.md); a non-Anthropic, non-OpenAI judge was picked so no model grades itself. Treat differences under about half a point as noise.
 
 ## Gallery
 
 <!-- gallery:start -->
 | Final render | Model | Date | Grade | Run |
 |---|---|---|---|---|
-| <img src="results/claude-opus-5.5/2026-10-04/preview.jpg" width="360"> | **Claude Opus 5.5**<br>claude-code | 2026-10-04 | not graded | [files](results/claude-opus-5.5/2026-10-04) |
-| <img src="results/claude-sonnet-5.5/2026-09-29/preview.jpg" width="360"> | **Claude Sonnet 5.5**<br>claude-code | 2026-09-29 | not graded | [files](results/claude-sonnet-5.5/2026-09-29) |
-| <img src="results/deepseek-v4.1-flash/2026-10-05/preview.jpg" width="360"> | **DeepSeek V4.1 Flash**<br>pi | 2026-10-05 | not graded | [files](results/deepseek-v4.1-flash/2026-10-05) |
-| <img src="results/gpt-6-astra/2026-10-04/preview.jpg" width="360"> | **GPT-6 Astra**<br>codex | 2026-10-04 | not graded | [files](results/gpt-6-astra/2026-10-04) |
+| <img src="results/claude-opus-5.5/2026-10-04/preview.jpg" width="360"> | **Claude Opus 5.5**<br>claude-code | 2026-10-04 | 6.3 | [files](results/claude-opus-5.5/2026-10-04) |
+| <img src="results/gpt-6-astra/2026-10-04/preview.jpg" width="360"> | **GPT-6 Astra**<br>codex | 2026-10-04 | 6.0 | [files](results/gpt-6-astra/2026-10-04) |
+| <img src="results/claude-sonnet-5.5/2026-09-29/preview.jpg" width="360"> | **Claude Sonnet 5.5**<br>claude-code | 2026-09-29 | 5.6 | [files](results/claude-sonnet-5.5/2026-09-29) |
+| <img src="results/deepseek-v4.1-flash/2026-10-05/preview.jpg" width="360"> | **DeepSeek V4.1 Flash**<br>pi | 2026-10-05 | 4.7 | [files](results/deepseek-v4.1-flash/2026-10-05) |
 <!-- gallery:end -->
 
 ## Run it on a model

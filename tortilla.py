@@ -240,10 +240,14 @@ def cmd_kill(args):
 
 
 def cmd_gallery(args):
+    def overall(meta):
+        grade = meta.get("grade")
+        return grade.get("overall", -1) if isinstance(grade, dict) else -1
+
+    runs = [(p.parent, json.loads(p.read_text(encoding="utf-8"))) for p in RESULTS.glob("*/*/meta.json")]
+    runs.sort(key=lambda r: (-overall(r[1]), r[0].as_posix()))  # best grade first, ungraded last
     rows = []
-    for meta_path in sorted(RESULTS.glob("*/*/meta.json")):
-        run_dir = meta_path.parent
-        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    for run_dir, meta in runs:
         rel = run_dir.relative_to(ROOT).as_posix()
         shown = meta.get("preview") or meta.get("final_image")
         img = f'<img src="{rel}/{shown}" width="360">' if shown else "_no image_"

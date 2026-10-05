@@ -14,5 +14,24 @@
     ]
   },
   "notes": "Render 2's controller lost DNS; its output was recovered without re-running (recover_existing_run.py), so cloud_runs.json lists only renders 1 and 3. The agent's 100 MB results zip was removed from the collected copy (it duplicates the folder and is over GitHub's file limit).",
-  "grade": null
+  "grade": {
+    "scores": {
+      "realism": 5,
+      "fold": 5,
+      "tortilla_material": 5,
+      "board_material": 6,
+      "lighting_camera": 7,
+      "iteration": 7,
+      "code": 7
+    },
+    "gates": {
+      "ran_headless": true,
+      "render_budget": true,
+      "no_external_assets": true
+    },
+    "overall": 6.0,
+    "verdict": "The script successfully runs headlessly and adheres to all constraints, with good iteration logic and camera setup. However, the procedural materials and cloth simulation yield a slightly synthetic look, particularly with the overly uniform char spots and scalloped layer edges.",
+    "judge": "gemini-3.1-pro-preview (via opencode)",
+    "graded": "2026-10-05"
+  }
 }

@@ -14,5 +14,24 @@
     ]
   },
   "notes": "Run via the pi agent (deepseek/deepseek-flash, default thinking). Self-reports that render 3 lost six shader links, so the final image has flat materials; the delivered script fixes them but was not re-rendered.",
-  "grade": null
+  "grade": {
+    "scores": {
+      "realism": 3,
+      "fold": 6,
+      "tortilla_material": 3,
+      "board_material": 3,
+      "lighting_camera": 6,
+      "iteration": 5,
+      "code": 7
+    },
+    "gates": {
+      "ran_headless": true,
+      "render_budget": true,
+      "no_external_assets": true
+    },
+    "overall": 4.7,
+    "verdict": "The pipeline runs headlessly and handles geometry and folding well, but a critical shader bug left both the tortilla and board completely untextured in the final budget-constrained render.",
+    "judge": "gemini-3.1-pro-preview (via opencode)",
+    "graded": "2026-10-05"
+  }
 }

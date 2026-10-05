@@ -6,5 +6,24 @@
   "preview": "preview.jpg",
   "files": 55,
   "notes": "Ran in repo root before workspace isolation; moved afterwards. Self-reports 3 renders plus ~15 bake/tune runs.",
-  "grade": null
+  "grade": {
+    "scores": {
+      "realism": 5,
+      "fold": 6,
+      "tortilla_material": 5,
+      "board_material": 4,
+      "lighting_camera": 6,
+      "iteration": 6,
+      "code": 7
+    },
+    "gates": {
+      "ran_headless": true,
+      "render_budget": true,
+      "no_external_assets": true
+    },
+    "overall": 5.6,
+    "verdict": "The model successfully delivered a procedural headless script simulating the fold mechanics, with solid camera setup and iterative refinement, though the materials remain somewhat synthetic.",
+    "judge": "gemini-3.1-pro-preview (via opencode)",
+    "graded": "2026-10-05"
+  }
 }
